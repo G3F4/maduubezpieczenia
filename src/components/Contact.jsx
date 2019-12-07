@@ -16,7 +16,7 @@ export default function Contact() {
                 <i className="icon-globe-outline"></i>
               </div>
               <div className="colorlib-text">
-                <p><a href="#">kontakt@ubezpieczeniamadu.pl</a></p>
+                <p><a href="mailto:kontakt@ubezpieczeniamadu.pl">kontakt@ubezpieczeniamadu.pl</a></p>
               </div>
             </div>
 
