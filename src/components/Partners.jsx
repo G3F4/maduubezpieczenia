@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Partners() {
   return (
-    <div className="Introduction">
+    <div className="Introduction" data-section="partners">
       <section className="colorlib-about" >
         <div className="colorlib-narrow-content">
           <div className="row">

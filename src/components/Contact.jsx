@@ -25,7 +25,7 @@ export default function Contact() {
                 <i className="icon-map"></i>
               </div>
               <div className="colorlib-text">
-                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                <p>Granica, Reja, Xx, Mazowieckie, Polska</p>
               </div>
             </div>
 
@@ -34,7 +34,7 @@ export default function Contact() {
                 <i className="icon-phone"></i>
               </div>
               <div className="colorlib-text">
-                <p><a href="tel://">+123 456 7890</a></p>
+                <p><a href="tel://">+48 765 456 890</a></p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Contact() {
                               placeholder="Wiadomość"></textarea>
                   </div>
                   <div className="form-group">
-                    <input type="submit" className="btn btn-primary btn-send-message" value="Send Message" />
+                    <input type="submit" className="btn btn-primary btn-send-message" value="Wyślij" />
                   </div>
                 </form>
               </div>

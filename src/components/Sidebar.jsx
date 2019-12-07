@@ -11,14 +11,15 @@ export default function Sidebar() {
         <aside id="colorlib-aside" className="border js-fullheight">
           <div className="text-center">
             <div className="author-img" style={{ backgroundImage: logoImage }} />
-            <h1 id="colorlib-logo"><a href="index.html">Madu Ubezpieczenia</a></h1>
+            <h1 id="colorlib-logo"><a href="index.html">Ubezpieczenia Madu</a></h1>
           </div>
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
             <div id="navbar" className="collapse">
               <ul>
+                {/*<li className="active"><a href="#home" data-nav-section="home">Home</a></li>*/}
                 <li><a href="#about" data-nav-section="about">O Mnie</a></li>
                 <li><a href="#timeline" data-nav-section="traffic">Ubezpieczenia</a></li>
-                <li><a href="#timeline" data-nav-section="contact">Kontakt</a></li>
+                <li><a href="#contact" data-nav-section="contact">Kontakt</a></li>
               </ul>
             </div>
           </nav>
