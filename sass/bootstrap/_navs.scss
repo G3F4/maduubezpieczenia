@@ -2,7 +2,6 @@
 // Navs
 // --------------------------------------------------
 
-
 // Base class
 // --------------------------------------------------
 
@@ -20,6 +19,7 @@
       position: relative;
       display: block;
       padding: $nav-link-padding;
+
       &:hover,
       &:focus {
         text-decoration: none;
@@ -68,13 +68,13 @@
   }
 }
 
-
 // Tabs
 // -------------------------
 
 // Give the tabs something to sit on
 .nav-tabs {
   border-bottom: 1px solid $nav-tabs-border-color;
+
   > li {
     float: left;
     // Make the list-items overlay the bottom border
@@ -86,6 +86,7 @@
       line-height: $line-height-base;
       border: 1px solid transparent;
       border-radius: $border-radius-base $border-radius-base 0 0;
+
       &:hover {
         border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
       }
@@ -104,13 +105,13 @@
       }
     }
   }
+
   // pulling this in mainly for less shorthand
   &.nav-justified {
     @extend .nav-justified;
     @extend .nav-tabs-justified;
   }
 }
-
 
 // Pills
 // -------------------------
@@ -122,6 +123,7 @@
     > a {
       border-radius: $nav-pills-border-radius;
     }
+
     + li {
       margin-left: 2px;
     }
@@ -138,18 +140,17 @@
   }
 }
 
-
 // Stacked pills
 .nav-stacked {
   > li {
     float: none;
+
     + li {
       margin-top: 2px;
       margin-left: 0; // no need for this gap between nav items
     }
   }
 }
-
 
 // Nav variations
 // --------------------------------------------------
@@ -162,6 +163,7 @@
 
   > li {
     float: none;
+
     > a {
       text-align: center;
       margin-bottom: 5px;
@@ -177,6 +179,7 @@
     > li {
       display: table-cell;
       width: 1%;
+
       > a {
         margin-bottom: 0;
       }
@@ -215,7 +218,6 @@
   }
 }
 
-
 // Tabbable tabs
 // -------------------------
 
@@ -224,11 +226,11 @@
   > .tab-pane {
     display: none;
   }
+
   > .active {
     display: block;
   }
 }
-
 
 // Dropdowns
 // -------------------------
