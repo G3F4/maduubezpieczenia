@@ -34,7 +34,7 @@ export default function Introduction() {
                   <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                     <div className="slider-text-inner">
                       <div className="desc">
-                        <h1>Profesjonalne<br /> podejście</h1>
+                        <h1>Super<br /> podejście</h1>
                         <p><a className="btn btn-primary btn-learn" href="/" target="_blank"
                               rel="noopener noreferrer">Certyfikaty <i className="icon-briefcase3" /></a></p>
                       </div>

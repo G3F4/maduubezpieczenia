@@ -12,14 +12,13 @@ export default function Sidebar() {
           <div className="text-center">
             <div className="author-img" style={{ backgroundImage: logoImage }} />
             <h1 id="colorlib-logo"><a href="index.html">Madu Ubezpieczenia</a></h1>
-            <span className="email"><i className="icon-mail"></i>kontakt@maduubezpieczenia.pl</span>
           </div>
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
             <div id="navbar" className="collapse">
               <ul>
-                <li className="active"><a href="#home" data-nav-section="home">Home</a></li>
-                <li><a href="#about" data-nav-section="about">O Nas</a></li>
-                <li><a href="#timeline" data-nav-section="timeline">Euroins</a></li>
+                <li><a href="#about" data-nav-section="about">O Mnie</a></li>
+                <li><a href="#timeline" data-nav-section="traffic">Ubezpieczenia</a></li>
+                <li><a href="#timeline" data-nav-section="contact">Kontakt</a></li>
               </ul>
             </div>
           </nav>
