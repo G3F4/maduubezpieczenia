@@ -18,7 +18,7 @@ export default function Timeline() {
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-3">
-                      <i className="icon-pen2"/>
+                      <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
                       <h2>Sed ut perspiciatis <span>2019 do teraz</span></h2>
@@ -32,7 +32,7 @@ export default function Timeline() {
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-4">
-                      <i className="icon-pen2"/>
+                      <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
                       <h2>Sed ut perspiciatis <span>2019 do teraz</span></h2>
@@ -46,7 +46,7 @@ export default function Timeline() {
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="timeline-entry-inner">
                     <div className="timeline-icon color-5">
-                      <i className="icon-pen2"/>
+                      <i className="icon-pen2" />
                     </div>
                     <div className="timeline-label">
                       <h2>Sed ut perspiciatis <span>2019 do teraz</span></h2>

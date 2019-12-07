@@ -8,11 +8,11 @@ export default function App() {
   return (
     <div id="colorlib-page" className="App">
       <div id="container-wrap">
-        <Sidebar/>
+        <Sidebar />
         <div id="colorlib-main">
-          <Introduction/>
-          <About/>
-          <Timeline/>
+          <Introduction />
+          <About />
+          <Timeline />
         </div>
       </div>
     </div>
