@@ -2,7 +2,6 @@ import React from 'react';
 import Sidebar from './components/Sidebar'
 import Introduction from './components/Introduction'
 import About from './components/About'
-import Timeline from './components/Timeline'
 import Insurances from './components/Insurances'
 import Contact from './components/Contact'
 import Partners from './components/Partners'
@@ -15,7 +14,6 @@ export default function App() {
         <div id="colorlib-main">
           <Introduction />
           <About />
-          <Timeline />
           <Insurances />
           <Partners />
           <Contact />
