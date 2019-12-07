@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/maduubezpieczenia/static/js/2.5ca1dc63.chunk.js"
   },
   {
-    "revision": "9353c50fa512f03bc74e3854bd5580a9",
+    "revision": "60849c2385c9ed1cf2959f58420fa3b8",
     "url": "/maduubezpieczenia/index.html"
   }
 ];
