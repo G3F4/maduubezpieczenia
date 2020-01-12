@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/maduubezpieczenia/precache-manifest.8286a1e491b782c41b6c2274574da1f9.js"
+  "/maduubezpieczenia/precache-manifest.56c0aa813a7953d774ce2e4895dbe75f.js"
 );
 
 workbox.clientsClaim();
