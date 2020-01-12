@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fd930e89217ecba6daf6",
+    "revision": "4c1bee5cb62b58ddbc72",
     "url": "/maduubezpieczenia/static/css/main.bd019e11.chunk.css"
   },
   {
-    "revision": "fd930e89217ecba6daf6",
-    "url": "/maduubezpieczenia/static/js/main.fd930e89.chunk.js"
+    "revision": "4c1bee5cb62b58ddbc72",
+    "url": "/maduubezpieczenia/static/js/main.4c1bee5c.chunk.js"
   },
   {
     "revision": "74c01edd3da77396f15c",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/maduubezpieczenia/static/js/2.e183300e.chunk.js"
   },
   {
-    "revision": "b744a034eb0b4fdcf5dacdabe8da2788",
+    "revision": "b1829034eb0b9427d47899996476570a",
     "url": "/maduubezpieczenia/index.html"
   }
 ];
