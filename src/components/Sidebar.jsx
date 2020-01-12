@@ -1,7 +1,5 @@
 import React from 'react'
 
-const logoImage = 'url(images/about.png)';
-
 export default function Sidebar() {
   return (
     <div>
@@ -10,24 +8,17 @@ export default function Sidebar() {
              data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
         <aside id="colorlib-aside" className="border js-fullheight">
           <div className="text-center">
-            <div className="author-img" style={{ backgroundImage: logoImage }} />
-            <h1 id="colorlib-logo"><a href="index.html">Ubezpieczenia Madu</a></h1>
+            <a href="/" className="blog-img"><img src="images/logo.svg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
           </div>
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
             <div id="navbar" className="collapse">
               <ul>
-                {/*<li className="active"><a href="#home" data-nav-section="home">Home</a></li>*/}
-                <li><a href="#about" data-nav-section="about">O Mnie</a></li>
-                <li><a href="#timeline" data-nav-section="traffic">Ubezpieczenia</a></li>
-                <li><a href="#contact" data-nav-section="contact">Kontakt</a></li>
+                <li><a className="menuItem" href="#partners" data-nav-section="partners">Partnerzy</a></li>
+                <li><a className="menuItem" href="#traffic" data-nav-section="traffic">Ubezpieczenia</a></li>
+                <li><a className="menuItem" href="#contact" data-nav-section="contact">Kontakt</a></li>
               </ul>
             </div>
           </nav>
-          <div className="colorlib-footer">
-            <p><small>
-              Tutaj damy jakiś tekst
-            </small></p>
-          </div>
         </aside>
       </div>
     </div>

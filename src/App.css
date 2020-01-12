@@ -3,3 +3,36 @@ app {
   overflow: hidden;
   position: relative;
 }
+
+.menuItem {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.services .icon:before {
+  top: -30px;
+  width: 0px;
+  height: 0;
+  border-style: solid;
+  border-width: 0 60px 30px 60px;
+  border-color: transparent transparent #2c98f0 transparent;
+}
+
+.services .icon:after {
+  bottom: -30px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 60px 0 60px;
+  border-color: #2c98f0 transparent transparent transparent;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partnerLogo {
+  padding: 25px;
+}

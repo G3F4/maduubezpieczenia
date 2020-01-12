@@ -18,7 +18,6 @@ export default function Introduction() {
                     <div className="slider-text-inner js-fullheight">
                       <div className="desc">
                         <h1>Witamy w <br />Ubezpieczenia Madu</h1>
-                        <p><a className="btn btn-primary btn-learn" href="#about">O mnie<i className="icon-download4" /></a></p>
                       </div>
                     </div>
                   </div>
