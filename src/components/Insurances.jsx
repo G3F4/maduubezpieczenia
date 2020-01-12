@@ -39,7 +39,7 @@ export default function Insurances() {
                   <div className="panel-heading" role="tab" id="headingTwo">
                     <h4 className="panel-title">
                       <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                         aria-expanded="false" aria-controls="collapseTwo">Majatkowe
+                         aria-expanded="false" aria-controls="collapseTwo">Majątkowe
                       </a>
                     </h4>
                   </div>
