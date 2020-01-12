@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Insurances() {
   return (
-    <section className="colorlib-education" data-section="traffic">
+    <section className="colorlib-education" data-section="insurances">
       <div className="colorlib-narrow-content">
         <div className="row">
           <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">

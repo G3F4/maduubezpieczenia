@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <section className="colorlib-contact" data-section="contact">
+    <section className="colorlib-education" data-section="contact">
       <div className="colorlib-narrow-content">
         <div className="row">
           <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">

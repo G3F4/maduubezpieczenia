@@ -7,7 +7,7 @@ const backgroundImageSlide4 = 'url(images/img_bg11.jpg)';
 export default function Introduction() {
   return (
     <div className="Introduction">
-      <section id="colorlib-hero" className="js-fullheight" data-section="home">
+      <section id="colorlib-hero" className="js-fullheight">
         <div className="flexslider js-fullheight">
           <ul className="slides">
             <li style={{ backgroundImage: backgroundImageSlide1 }}>

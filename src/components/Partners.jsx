@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Partners() {
   return (
-<section className="colorlib-partners" data-section="partners">
+<section className="colorlib-education" data-section="partners">
       <div className="colorlib-narrow-content">
         <div className="row">
           <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
