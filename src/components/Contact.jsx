@@ -13,7 +13,7 @@ export default function Contact() {
           <div className="col-md-5">
             <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
               <div className="colorlib-icon">
-                <i className="icon-globe-outline"></i>
+                <i className="icon-mail"></i>
               </div>
               <div className="colorlib-text">
                 <p><a href="mailto:ubezpieczeniamadu@gmail.com">ubezpieczeniamadu@gmail.com</a></p>
