@@ -16,16 +16,7 @@ export default function Contact() {
                 <i className="icon-globe-outline"></i>
               </div>
               <div className="colorlib-text">
-                <p><a href="mailto:kontakt@ubezpieczeniamadu.pl">kontakt@ubezpieczeniamadu.pl</a></p>
-              </div>
-            </div>
-
-            <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-              <div className="colorlib-icon">
-                <i className="icon-map"></i>
-              </div>
-              <div className="colorlib-text">
-                <p>Granica, Reja, Xx, Mazowieckie, Polska</p>
+                <p><a href="mailto:ubezpieczeniamadu@gmail.com">ubezpieczeniamadu@gmail.com</a></p>
               </div>
             </div>
 
@@ -34,11 +25,11 @@ export default function Contact() {
                 <i className="icon-phone"></i>
               </div>
               <div className="colorlib-text">
-                <p><a href="tel://">+48 765 456 890</a></p>
+                <p><a href="tel://">+48 798 385 487</a></p>
               </div>
             </div>
           </div>
-          <div className="col-md-7 col-md-push-1">
+          <div className="col-md-7 col-md-push-1" style={{ display: 'none' }}>
             <div className="row">
               <div className="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
                 <form action="">
