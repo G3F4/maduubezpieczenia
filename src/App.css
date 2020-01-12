@@ -36,3 +36,9 @@ app {
 .partnerLogo {
   padding: 25px;
 }
+
+.slideText {
+  background-color: #dddddd59;
+  padding: 20px;
+  text-align: center;
+}
