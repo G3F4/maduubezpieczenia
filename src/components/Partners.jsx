@@ -16,40 +16,40 @@ export default function Partners() {
                 <img alt="logo" src="images/logo-allianz.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/axa-logo.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/compensa_logo.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/ergo-hestia-logo.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/logo-euroins.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/generali_logo.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/logo-hdi.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/inter_risk.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/logo-proama.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/tuz-logo.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/logo-warta.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/wiener-logo.png" />  
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-allianz.png" />  
+                <img alt="logo" src="images/PZU_logo.png" />  
               </div>
             </div>
           </div>
