@@ -14,7 +14,7 @@ export default function Introduction() {
               <div className="overlay" />
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                  <div className="col-md-9 col-md-offset-6 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                     <div className="slider-text-inner js-fullheight">
                       <div className="desc">
                         <h1>Witamy w <br />Ubezpieczenia Madu</h1>
@@ -28,7 +28,7 @@ export default function Introduction() {
               <div className="overlay" />
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                  <div className="col-md-9 col-md-offset-6 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                     <div className="slider-text-inner">
                       <div className="desc">
                         <h1>Szeroki wachlarz <br />możliwości </h1>
@@ -44,7 +44,7 @@ export default function Introduction() {
               <div className="overlay" />
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                  <div className="col-md-9 col-md-offset-6 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                     <div className="slider-text-inner">
                       <div className="desc">
                         <h1>Współpracujemy z <br />najlepszymi </h1>
