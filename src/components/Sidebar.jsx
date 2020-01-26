@@ -8,13 +8,15 @@ export default function Sidebar() {
              data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
         <aside id="colorlib-aside" className="border js-fullheight">
           <div className="text-center">
-            <a href="/" className="blog-img">
+            <a href="http://ubezpieczeniamadu.pl/" className="blog-img">
               <img src="images/logo.svg" className="img-responsive" alt="logo" />
             </a>
           </div>
+          <br />
           <nav id="colorlib-main-menu" role="navigation" className="navbar">
             <div id="navbar" className="collapse">
               <ul>
+                <li><a className="menuItem" href="#about" data-nav-section="about">Współpraca</a></li>
                 <li><a className="menuItem" href="#partners" data-nav-section="partners">Partnerzy</a></li>
                 <li><a className="menuItem" href="#insurances" data-nav-section="insurances">Ubezpieczenia</a></li>
                 <li><a className="menuItem" href="#contact" data-nav-section="contact">Kontakt</a></li>

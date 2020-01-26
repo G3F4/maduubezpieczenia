@@ -17,7 +17,7 @@ export default function Introduction() {
                   <div className="col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                     <div className="slider-text-inner js-fullheight">
                       <div className="desc slideText">
-                        <h1>Witamy w <br />Ubezpieczenia Madu</h1>
+                        <h1>Witamy<br />w Ubezpieczenia Madu</h1>
                       </div>
                     </div>
                   </div>
@@ -32,7 +32,7 @@ export default function Introduction() {
                   <div className="col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                     <div className="slider-text-inner">
                       <div className="desc slideText">
-                        <h1>Współpracujemy z <br />najlepszymi </h1>
+                        <h1>Współpracujemy<br />z najlepszymi </h1>
                       </div>
                     </div>
                   </div>

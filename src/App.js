@@ -5,8 +5,7 @@ import Insurances from './components/Insurances'
 import Contact from './components/Contact'
 import Partners from './components/Partners'
 import styles from './App.css';
-
-console.log(styles)
+import About from "./components/About";
 
 export default function App() {
   return (
@@ -15,6 +14,7 @@ export default function App() {
         <Sidebar />
         <div id="colorlib-main">
           <Introduction />
+          <About />
           <Partners />
           <Insurances />
           <Contact />

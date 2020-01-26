@@ -31,6 +31,7 @@ app {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .partnerLogo {
@@ -40,8 +41,19 @@ app {
   max-width: 250px;
 }
 
+@media screen and (max-width: 768px) {
+  .colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
 .slideText {
   background-color: #dddddd59;
   padding: 20px;
   text-align: center;
+}
+
+h2 {
+  margin: 0;
 }
