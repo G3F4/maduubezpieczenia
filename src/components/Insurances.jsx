@@ -72,7 +72,7 @@ export default function Insurances() {
                     <h2>Majątkowe</h2>
                     <ul>
                       <li>Od kradzieży lub dewastacji</li>
-                      <li>Dupa</li>
+                      <li>Gwarancje i kredyty</li>
                     </ul>
                   </div>
                 </div>
