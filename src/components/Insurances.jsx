@@ -80,6 +80,20 @@ export default function Insurances() {
               <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                 <div className="timeline-entry-inner">
                   <div className="timeline-icon">
+                    <i className="icon-briefcase" />
+                  </div>
+                  <div className="timeline-label">
+                    <h2>Zawodowe</h2>
+                    <ul>
+                      <li>OC przewoźnika</li>
+                      <li>???</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                <div className="timeline-entry-inner">
+                  <div className="timeline-icon">
                     <i className="icon-leaf" />
                   </div>
                   <div className="timeline-label">

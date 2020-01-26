@@ -61,3 +61,11 @@ h2 {
 #colorlib-aside {
   height: 100%;
 }
+
+#colorlib-heading {
+  height: 100%;
+}
+
+.colorlib-heading {
+font-size: 24px;
+}
