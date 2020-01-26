@@ -13,6 +13,7 @@ export default class About extends Component {
                                         <div className="about-desc">
                                             <h2 className="colorlib-heading">Współpraca</h2>
                                             <p>Wszyscy klienci współpracujący z tą firmą mogą skorzystać z najwyższej klasy obsługi w atrakcyjnych cenach. W obszarze produktów ubezpieczeniowych gwarantujemy kompleksową pomoc podczas wyboru ubezpieczeń, troszcząc się o kompletne dostosowanie propozycji do konkretnych potrzeb klientów. Pełna opieka przy zakupie a zwłaszcza przy zgłaszaniu zdarzeń czy szkód.</p>
+                                            <p>Wszyscy agenci współpracujący z tą firmą mogą skorzystać z programu porównującego oferty Towarzystw Ubezpieczeniowych.</p>
                                             <p></p>
                                         </div>
                                     </div>

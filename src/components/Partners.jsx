@@ -40,7 +40,10 @@ export default function Partners() {
                 <img alt="logo" src="images/logo-inter-risk.png" />
               </div>
               <div className="partnerLogo">
-                <img alt="logo" src="images/logo-proama.png" />  
+                <img alt="logo" src="images/polisa-logo.png" />
+              </div>
+              <div className="partnerLogo">
+                <img alt="logo" src="images/logo-proama.png" />
               </div>
               <div className="partnerLogo">
                 <img alt="logo" src="images/PZU_logo.png" />
