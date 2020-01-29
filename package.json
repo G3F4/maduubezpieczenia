@@ -1,7 +1,7 @@
 {
   "name": "maduubezpieczenia",
   "version": "0.1.0",
-  "homepage": "https://g3f4.github.io/maduubezpieczenia",
+  "homepage": "http://ubezpieczeniamadu.pl/",
   "dependencies": {
     "gh-pages": "2.1.1",
     "react": "16.8.3",
