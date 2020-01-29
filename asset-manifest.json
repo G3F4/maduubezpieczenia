@@ -1,13 +1,13 @@
 {
-  "main.css": "ubezpieczeniamadu.pl/static/css/main.ccdb6dda.chunk.css",
-  "main.js": "ubezpieczeniamadu.pl/static/js/main.a85b52d6.chunk.js",
-  "main.js.map": "ubezpieczeniamadu.pl/static/js/main.a85b52d6.chunk.js.map",
-  "runtime~main.js": "ubezpieczeniamadu.pl/static/js/runtime~main.4fda2941.js",
-  "runtime~main.js.map": "ubezpieczeniamadu.pl/static/js/runtime~main.4fda2941.js.map",
-  "static/js/2.3d89b5cd.chunk.js": "ubezpieczeniamadu.pl/static/js/2.3d89b5cd.chunk.js",
-  "static/js/2.3d89b5cd.chunk.js.map": "ubezpieczeniamadu.pl/static/js/2.3d89b5cd.chunk.js.map",
-  "index.html": "ubezpieczeniamadu.pl/index.html",
-  "precache-manifest.63aadc1d29cf98abe815028c5f8919e7.js": "ubezpieczeniamadu.pl/precache-manifest.63aadc1d29cf98abe815028c5f8919e7.js",
-  "service-worker.js": "ubezpieczeniamadu.pl/service-worker.js",
-  "static/css/main.ccdb6dda.chunk.css.map": "ubezpieczeniamadu.pl/static/css/main.ccdb6dda.chunk.css.map"
+  "main.css": "/static/css/main.ccdb6dda.chunk.css",
+  "main.js": "/static/js/main.a23a0192.chunk.js",
+  "main.js.map": "/static/js/main.a23a0192.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.42ac5946.js",
+  "runtime~main.js.map": "/static/js/runtime~main.42ac5946.js.map",
+  "static/js/2.3d89b5cd.chunk.js": "/static/js/2.3d89b5cd.chunk.js",
+  "static/js/2.3d89b5cd.chunk.js.map": "/static/js/2.3d89b5cd.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.accc2c296d24e256c5065feb5703ecc3.js": "/precache-manifest.accc2c296d24e256c5065feb5703ecc3.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.ccdb6dda.chunk.css.map": "/static/css/main.ccdb6dda.chunk.css.map"
 }
