@@ -23,11 +23,6 @@ export default function Sidebar() {
                 <li><a className="menuItem" href="#contact" data-nav-section="contact">Kontakt</a></li>
               </ul>
             </div>
-            <br />
-            <br />
-            <p style={{ margin: 20 }}>
-              ???? ????? ????? ?????
-            </p>
           </nav>
         </aside>
       </div>
