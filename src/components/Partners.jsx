@@ -17,7 +17,7 @@ export default function Partners() {
       </div>
     </div>
     <div className="row">
-      <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+      <div style={{ padding: 0 }} className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
         <div className="partners">
           <div className="partnerLogo">
             <img alt="logo" src="images/logo-allianz.png" />

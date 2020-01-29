@@ -35,14 +35,14 @@ app {
 }
 
 .partnerLogo {
-  padding: 0px;
+  padding: 4px;
   margin: 14px;
   min-width: 150px;
   max-width: 150px;
 }
 
 .partnerLogo img {
-  width: 100%; /* you can use % */
+  width: 100%;
   height: auto;
 }
 
@@ -54,7 +54,6 @@ app {
     max-width: 250px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
@@ -92,4 +91,8 @@ font-size: 24px;
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
   color: #423e3d;
+}
+
+.timeline-label {
+  padding-bottom: 8px!important;
 }

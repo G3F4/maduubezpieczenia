@@ -4,6 +4,8 @@ const backgroundImageSlide1 = 'url(images/img_bg8.jpg)';
 const backgroundImageSlide3 = 'url(images/windowBg.jpg)';
 const backgroundImageSlide4 = 'url(images/img_bg11.jpg)';
 
+const slideClassName = 'col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text';
+
 export default function Introduction() {
   return (
     <div className="Introduction">
@@ -14,7 +16,7 @@ export default function Introduction() {
               <div className="overlay" />
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                  <div className={slideClassName}>
                     <div className="slider-text-inner js-fullheight">
                       <div className="desc slideText">
                         <h1>Witamy<br />w Ubezpieczenia Madu</h1>
@@ -29,7 +31,7 @@ export default function Introduction() {
               <div className="overlay" />
               <div className="container-fluid">
                 <div className="row">
-                  <div className="col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                  <div className={slideClassName}>
                     <div className="slider-text-inner">
                       <div className="desc slideText">
                         <h1>Współpracujemy<br />z najlepszymi </h1>

@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Partners from './components/Partners'
 import styles from './App.css';
 import About from "./components/About";
+import Work from "./components/Work";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Introduction />
           <About />
           <Partners />
+          <Work />
           <Insurances />
           <Contact />
         </div>
