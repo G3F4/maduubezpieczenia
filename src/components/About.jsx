@@ -20,13 +20,6 @@ export default class About extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                                <div className="hire">
-                                    <h2 style={{ textAlign: 'center' }}>NOWOŚĆ! Ubezpieczenie psa i kota</h2>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>

@@ -35,11 +35,26 @@ app {
 }
 
 .partnerLogo {
-  padding: 25px;
-  margin: 25px;
-  min-width: 250px;
-  max-width: 250px;
+  padding: 0px;
+  margin: 14px;
+  min-width: 150px;
+  max-width: 150px;
 }
+
+.partnerLogo img {
+  width: 100%; /* you can use % */
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .partnerLogo {
+    padding: 25px;
+    margin: 25px;
+    min-width: 250px;
+    max-width: 250px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
@@ -60,6 +75,7 @@ h2 {
 
 #colorlib-aside {
   height: 100%;
+  overflow: hidden;
 }
 
 #colorlib-heading {
@@ -68,4 +84,12 @@ h2 {
 
 .colorlib-heading {
 font-size: 24px;
+}
+
+#colorlib-hero {
+  margin-bottom: 8em;
+}
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+  color: #423e3d;
 }

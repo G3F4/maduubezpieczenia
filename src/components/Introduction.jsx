@@ -1,7 +1,7 @@
 import React from 'react'
 
 const backgroundImageSlide1 = 'url(images/img_bg8.jpg)';
-const backgroundImageSlide3 = 'url(images/img_bg6.jpg)';
+const backgroundImageSlide3 = 'url(images/windowBg.jpg)';
 const backgroundImageSlide4 = 'url(images/img_bg11.jpg)';
 
 export default function Introduction() {
