@@ -11,7 +11,7 @@ export default function Contact() {
         </div>
         <div className="row">
           <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-            <h4>Masz pytania? Napisz lub zadźwoń!</h4>
+            <h4>Masz pytania? Napisz lub zadzwoń!</h4>
           </div>
         </div>
         <div className="row">
