@@ -1,4 +1,5 @@
 import React from 'react';
+// import FullScreenDialog from "./FullScreenDialog";
 
 export default function Insurances() {
   return (
@@ -26,6 +27,7 @@ export default function Insurances() {
               <ul>
                 <li>Pies</li>
                 <li>Kot</li>
+                {/*<FullScreenDialog />*/}
               </ul>
             </div>
           </div>
@@ -36,6 +38,7 @@ export default function Insurances() {
               <ul>
                 <li>NNW</li>
                 <li>Na życie</li>
+                {/*<FullScreenDialog />*/}
               </ul>
             </div>
           </div>
@@ -46,6 +49,7 @@ export default function Insurances() {
               <ul>
                 <li>Kradzież</li>
                 <li>Gwarancje</li>
+                {/*<FullScreenDialog />*/}
               </ul>
             </div>
           </div>
@@ -56,6 +60,7 @@ export default function Insurances() {
               <ul>
                 <li>OC/AC</li>
                 <li>Assistance</li>
+                {/*<FullScreenDialog />*/}
               </ul>
             </div>
           </div>
@@ -66,6 +71,7 @@ export default function Insurances() {
               <ul>
                 <li>OC&nbsp;przewoźnika</li>
                 <li>Grupowe</li>
+                {/*<FullScreenDialog />*/}
               </ul>
             </div>
           </div>
@@ -76,6 +82,7 @@ export default function Insurances() {
               <ul>
                 <li>OC rolnika</li>
                 <li>Uprawy rolne</li>
+                {/*<FullScreenDialog />*/}
               </ul>
             </div>
           </div>

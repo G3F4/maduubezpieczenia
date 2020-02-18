@@ -4,6 +4,13 @@ export default function Contact() {
   return (
     <section className="colorlib-education" data-section="contact">
       <div className="colorlib-narrow-content">
+        <div className="row" style={{ marginBottom: 40 }}>
+          <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+            <div className="hire">
+              <h2 style={{ textAlign: 'center' }}>Oferta komunikacyjna w 5 minut</h2>
+            </div>
+          </div>
+        </div>
         <div className="row animate-box" data-animate-effect="fadeInLeft">
           <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
             <h2 className="colorlib-heading">Kontakt</h2>
