@@ -7,7 +7,7 @@ export default function Partners() {
     <div className="row" style={{ marginBottom: 40 }}>
       <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
         <div className="hire">
-          <h2 style={{ textAlign: 'center' }}>NOWOŚĆ! Ubezpieczenie psa i kota</h2>
+          <h2 style={{ textAlign: 'center' }}>Oferta komunikacyjna w 5 minut</h2>
         </div>
       </div>
     </div>

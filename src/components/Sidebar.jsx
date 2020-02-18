@@ -17,9 +17,9 @@ export default function Sidebar() {
             <div id="navbar" className="collapse">
               <ul>
                 <li><a className="menuItem" href="#about" data-nav-section="about">O mnie</a></li>
-                <li><a className="menuItem" href="#partners" data-nav-section="partners">Partnerzy</a></li>
-                <li><a className="menuItem" href="#work" data-nav-section="work">Współpraca</a></li>
                 <li><a className="menuItem" href="#insurances" data-nav-section="insurances">Ubezpieczenia</a></li>
+                <li><a className="menuItem" href="#partners" data-nav-section="partners">Partnerzy</a></li>
+                {/*<li><a className="menuItem" href="#work" data-nav-section="work">Współpraca</a></li>*/}
                 <li><a className="menuItem" href="#contact" data-nav-section="contact">Kontakt</a></li>
               </ul>
             </div>

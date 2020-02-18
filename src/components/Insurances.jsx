@@ -7,7 +7,7 @@ export default function Insurances() {
         <div className="row">
           <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
             <div className="hire">
-              <h2 style={{ textAlign: 'center' }}>Oferta komunikacyjna w 5 minut!</h2>
+              <h2 style={{ textAlign: 'center' }}>NOWOŚĆ! Ubezpieczenie psa i kota</h2>
             </div>
           </div>
         </div>
@@ -19,112 +19,64 @@ export default function Insurances() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-12">
-            <div className="timeline-centered">
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-star2" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>NOWOŚĆ! Zwierzęta</h2>
-                    <ul>
-                      <li>Pies</li>
-                      <li>Kot</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-truck2" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>Komunikacyjne</h2>
-                    <ul>
-                      <li>OC/AC</li>
-                      <li>Assistance</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-user-add" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>Zdrowotne</h2>
-                    <ul>
-                      <li>NNW</li>
-                      <li>Na życie</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-home-outline" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>Majątkowe</h2>
-                    <ul>
-                      <li>Od kradzieży lub dewastacji</li>
-                      <li>Gwarancje i kredyty</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-briefcase" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>Zawodowe</h2>
-                    <ul>
-                      <li>OC przewoźnika</li>
-                      <li>???</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-leaf" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>Rolne</h2>
-                    <ul>
-                      <li>OC rolnika</li>
-                      <li>Uprawy rolne</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon">
-                    <i className="icon-calculator" />
-                  </div>
-                  <div className="timeline-label">
-                    <h2>Indywidualne</h2>
-                    <ul>
-                      <li>Na życie</li>
-                      <li>Podróżne</li>
-                    </ul>
-                  </div>
-                </div>
-              </article>
-              <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                <div className="timeline-entry-inner">
-                  <div className="timeline-icon color-none">
-                  </div>
-                </div>
-              </article>
+          <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+            <div className="services color-1">
+              <span className="icon2"><i className="icon-star2"></i></span>
+              <h3>NOWOŚĆ!&nbsp;Zwierzęta</h3>
+              <ul>
+                <li>Pies</li>
+                <li>Kot</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
+            <div className="services color-1">
+              <span className="icon2"><i className="icon-user-add"></i></span>
+              <h3>Zdrowotne</h3>
+              <ul>
+                <li>NNW</li>
+                <li>Na życie</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+            <div className="services color-1">
+              <span className="icon2"><i className="icon-home-outline"></i></span>
+              <h3>Majątkowe</h3>
+              <ul>
+                <li>Kradzież</li>
+                <li>Gwarancje</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+            <div className="services color-1">
+              <span className="icon2"><i className="icon-truck2"></i></span>
+              <h3>Komunikacyjne</h3>
+              <ul>
+                <li>OC/AC</li>
+                <li>Assistance</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+            <div className="services color-1">
+              <span className="icon2"><i className="icon-briefcase"></i></span>
+              <h3>Zawodowe</h3>
+              <ul>
+                <li>OC&nbsp;przewoźnika</li>
+                <li>Grupowe</li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+            <div className="services color-1">
+              <span className="icon2"><i className="icon-leaf"></i></span>
+              <h3>Rolne</h3>
+              <ul>
+                <li>OC rolnika</li>
+                <li>Uprawy rolne</li>
+              </ul>
             </div>
           </div>
         </div>

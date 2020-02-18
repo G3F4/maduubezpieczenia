@@ -16,9 +16,9 @@ export default function App() {
         <div id="colorlib-main">
           <Introduction />
           <About />
-          <Partners />
-          <Work />
           <Insurances />
+          <Partners />
+          {/*<Work />*/}
           <Contact />
         </div>
       </div>

@@ -4,23 +4,11 @@ export default function Contact() {
   return (
     <section className="colorlib-education" data-section="contact">
       <div className="colorlib-narrow-content">
-        <div className="row">
+        <div className="row animate-box" data-animate-effect="fadeInLeft">
           <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
             <h2 className="colorlib-heading">Kontakt</h2>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-            <h4>Masz pytania? Napisz lub zadzwoń!</h4>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-            <h4>Marcin Marczyk</h4>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-5">
+          <div className="col-lg-6">
             <a href="mailto:ubezpieczeniamadu@gmail.com">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
@@ -42,10 +30,11 @@ export default function Contact() {
               </div>
             </a>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-            <p>???? ???? ???? ???? ???? ???? ???? ????</p>
+          <div className="col-lg-6">
+            <img alt="logo" src="images/ja.JPG" />
+            <br />
+            <br />
+            <h4>Marcin Marczyk</h4>
           </div>
         </div>
       </div>
