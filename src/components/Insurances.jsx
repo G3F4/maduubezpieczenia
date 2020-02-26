@@ -23,11 +23,13 @@ export default function Insurances() {
         <div className="row">
           <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
             <div className="services color-1">
-              <span className="icon2"><i className="icon-star2"></i></span>
-              <h3>NOWOŚĆ!&nbsp;Zwierzęta</h3>
+              <div className="insurancesTileHeader">
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-star2"></i></span>
+                <h2>Zwierzęta</h2>
+              </div>
               <ul>
-                <li>Pies</li>
-                <li>Kot</li>
+                <li className="insurancesTileItem">Pies</li>
+                <li className="insurancesTileItem">Kot</li>
                 <FullScreenDialog title="Pies i kot">
                   <Typography style={{ fontSize: 18 }} color="error">Ubezpieczenie dostępne w sprzedaży w marcu 2020 roku.</Typography>
                   <br />
@@ -38,8 +40,10 @@ export default function Insurances() {
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
             <div className="services color-1">
-              <span className="icon2"><i className="icon-user-add"></i></span>
-              <h3>Zdrowotne</h3>
+              <div className="insurancesTileHeader">
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-user-add"></i></span>
+                <h2>Zdrowotne</h2>
+              </div>
               <ul>
                 <li>Indywidualne</li>
                 <li>Grupowe</li>
@@ -56,8 +60,10 @@ export default function Insurances() {
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
             <div className="services color-1">
-              <span className="icon2"><i className="icon-home-outline"></i></span>
-              <h3>Majątkowe</h3>
+              <div className="insurancesTileHeader">
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-home-outline"></i></span>
+                <h2>Majątkowe</h2>
+              </div>
               <ul>
                 <li>Dom</li>
                 <li>Mieszkanie</li>
@@ -74,8 +80,10 @@ export default function Insurances() {
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
             <div className="services color-1">
-              <span className="icon2"><i className="icon-truck2"></i></span>
-              <h3>Komunikacyjne</h3>
+              <div className="insurancesTileHeader">
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-truck2"></i></span>
+                <h2>Komunikacyjne</h2>
+              </div>
               <ul>
                 <li>OC/AC</li>
                 <li>NNW/ASS</li>
@@ -89,8 +97,10 @@ export default function Insurances() {
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
             <div className="services color-1">
-              <span className="icon2"><i className="icon-briefcase"></i></span>
-              <h3>Podróżne</h3>
+              <div className="insurancesTileHeader">
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-briefcase"></i></span>
+                <h2>Podróżne</h2>
+              </div>
               <ul>
                 <li>Turystyczne</li>
                 <li>Służbowe</li>
@@ -107,8 +117,10 @@ export default function Insurances() {
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
             <div className="services color-1">
-              <span className="icon2"><i className="icon-leaf"></i></span>
-              <h3>Rolne</h3>
+              <div className="insurancesTileHeader">
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-leaf"></i></span>
+                <h2>Rolne</h2>
+              </div>
               <ul>
                 <li>OC rolnika</li>
                 <li>Budynki/uprawy</li>

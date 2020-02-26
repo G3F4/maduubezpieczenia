@@ -5,10 +5,21 @@ export default function Contact() {
     <section className="colorlib-education" data-section="contact">
       <div className="colorlib-narrow-content">
         <div className="row animate-box" data-animate-effect="fadeInLeft">
-          <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+          <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+            <div className="hire">
+              <h2 style={{ textAlign: 'center' }}>Internetowa sprzedaż polis na&nbsp;życie</h2>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div className="row animate-box" data-animate-effect="fadeInLeft">
+          <div className="col-md-9 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
             <h2 className="colorlib-heading">Kontakt</h2>
           </div>
-          <div className="col-lg-6">
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }} className="row animate-box" data-animate-effect="fadeInLeft">
+          <div style={{ marginLeft: 10, flexGrow: 1 }}>
             <a href="mailto:ubezpieczeniamadu@gmail.com">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
@@ -19,6 +30,7 @@ export default function Contact() {
                 </div>
               </div>
             </a>
+            <br />
             <a href="tel://+48 798 385 487">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
@@ -30,8 +42,8 @@ export default function Contact() {
               </div>
             </a>
           </div>
-          <div className="col-lg-6">
-            <img alt="logo" src="images/ja.JPG" />
+          <div style={{ textAlign: 'center' }}>
+            <img alt="logo" src="images/ja.png" />
             <br />
             <br />
             <h4>Marcin Marczyk</h4>
