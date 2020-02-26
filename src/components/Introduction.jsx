@@ -9,10 +9,10 @@ const slideClassName = 'col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-
 export default function Introduction() {
   return (
     <div className="Introduction">
-      <section id="colorlib-hero" className="js-fullheight">
+      <section id="colorlib-hero" className="js-fullheight" style={{ marginBottom: 20 }}>
         <div className="flexslider js-fullheight">
-          <ul className="slides">
-            <li style={{ backgroundImage: backgroundImageSlide1 }}>
+          <ul className="slides js-fullheight">
+            <li className="js-fullheight" style={{ backgroundImage: backgroundImageSlide1 }}>
               <div className="overlay" />
               <div className="container-fluid">
                 <div className="row">
@@ -34,7 +34,7 @@ export default function Introduction() {
                   <div className={slideClassName}>
                     <div className="slider-text-inner">
                       <div className="desc slideText">
-                        <h1>Współpracuje<br />z najlepszymi</h1>
+                        <h1>Współpracuję<br />z najlepszymi</h1>
                       </div>
                     </div>
                   </div>

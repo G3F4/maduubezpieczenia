@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Sidebar() {
+export default function Sidebar({ className }) {
   return (
-    <div>
+    <div className={className}>
       <div>
         <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse"
              data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>

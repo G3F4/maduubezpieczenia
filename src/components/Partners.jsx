@@ -28,9 +28,6 @@ export default function Partners() {
             <img alt="logo" src="images/ergo-hestia-logo.png" />
           </div>
           <div className="partnerLogo">
-            <img alt="logo" src="images/logo-euroins.png" />
-          </div>
-          <div className="partnerLogo">
             <img alt="logo" src="images/generali_logo.png" />
           </div>
           <div className="partnerLogo">
