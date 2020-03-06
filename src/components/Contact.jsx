@@ -7,7 +7,11 @@ export default function Contact() {
         <div className="row animate-box" data-animate-effect="fadeInLeft">
           <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
             <div className="hire">
-              <h2 style={{ textAlign: 'center' }}>Internetowa sprzedaż polis na&nbsp;życie</h2>
+              <h2 style={{ textAlign: 'center' }}>
+                Sprzedaż polis online
+                <br />
+                z rabatem -10%
+              </h2>
             </div>
           </div>
         </div>
@@ -42,7 +46,7 @@ export default function Contact() {
               </div>
             </a>
           </div>
-          <div style={{ textAlign: 'center' }}>
+          <div style={{ textAlign: 'center', flexGrow: 1 }}>
             <img alt="logo" src="images/ja.png" />
             <br />
             <br />

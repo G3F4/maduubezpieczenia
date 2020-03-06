@@ -4,6 +4,7 @@ import Introduction from './components/Introduction'
 import Insurances from './components/Insurances'
 import Contact from './components/Contact'
 import Partners from './components/Partners'
+import Work from './components/Work'
 import styles from './App.css';
 import About from "./components/About";
 
@@ -14,7 +15,7 @@ export const AppContext = React.createContext({
 });
 
 export default function App() {
-  const [sidebarVisible, setSidebarVisible]  = useState(false);
+  const [sidebarVisible, setSidebarVisible]  = useState(true);
   const contextValue = {
     hideSidebar() {
       setSidebarVisible(false);
@@ -31,10 +32,11 @@ export default function App() {
           <Sidebar className={sidebarVisible ? 'showSidebar' : 'hideSidebar'} />
           <div id="colorlib-main">
             <Introduction />
-            <About />
             <Insurances />
             <Partners />
+            <Work />
             <Contact />
+            <About />
           </div>
         </div>
       </div>

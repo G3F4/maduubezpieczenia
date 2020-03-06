@@ -48,10 +48,10 @@ export default function Insurances() {
                 <li>Indywidualne</li>
                 <li>Grupowe</li>
                 <FullScreenDialog title="Indywidualne i grupowe">
-                  Indywidualne ubezpieczenie na zycie kierowane jest do osób fizycznych. Ochrona ubezpieczeniowa objete jest zdrowie i zycie Ubezpieczonego. Swiadczenie moze byc wyplacone Ubezpieczonemu (w przypadku np. trwalego inwalidztwa) lub osobie uprawnionej (w przypadku zgonu Ubezpieczonego).
+                  Indywidualne ubezpieczenie na życie kierowane jest do osób fizycznych. Ochroną ubezpieczeniową objęte jest zdrowie i życie Ubezpieczonego. Świadczenie może być wypłacone ubezpieczonemu lub osobie uprawnionej np. w przypadku trwałego inwalidztwa czy w przypadku zgonu Ubezpieczonego.
                   <br />
                   <br />
-                  Grupowe ubezpieczenie na zycie to dobre zabezpieczenie zdrowia i zycia pracowników, czlonków ich rodzin. Kierowane jest do osób zatrudnionych w jednym zakladzie pracy (grupa liczona jest juz od trzech osób), rodzina pracownika (malzonek lub konkubent, pelnoletnie dzieci) o ile On sam zawarl polise. Ochrona objete jest zycie i zdrowie osób wymienionych w umowie, co daje Ubezpieczonemu poczucie stabilnosci i bezpieczenstwa.
+                  Grupowe ubezpieczenie na życie to dobre zabezpieczenie zdrowia i życia pracowników oraz ich rodzin. Kierowane jest do osób zatrudnionych w jednym miejscu pracy-grupa liczona już od trzech osób, a także rodzina pracownika-malzonek lub konkubent jak i pełnoletnie dzieci. Ochroną objęte jest życie i zdrowie osób wymienionych w umowie, co daje Ubezpieczonemu poczucie zabezpieczenia.
                   <br />
                   <br />
                 </FullScreenDialog>
@@ -68,10 +68,10 @@ export default function Insurances() {
                 <li>Dom</li>
                 <li>Mieszkanie</li>
                 <FullScreenDialog title="Dom i mieszkanie">
-                  Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomosci od zalania, pozaru, silnego wiatru i wielu innych zdarzen losowych, jak i równiez od przepiec zwiazanych ze zmiana napiecia w instalacji elektrycznej.Ubezpieczenie domu chroni równiez od kradziezy oraz zniszczen dokonanych przez osoby trzecie.
+                  Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od zalania, pożaru, silnego wiatru i wielu innych zdarzeń losowych, jak i również od przepiec związanych ze zmianą napięcia w instalacji elektrycznej. Dom jest ubezpieczony również od kradzieży oraz zniszczeń dokonanych przez osoby trzecie.
                   <br />
                   <br />
-                  OC w zyciu prywatnym to ochrona przed finansowymi skutkami za szkody wyrzadzone osobom trzecim. Co wazne, ubezpieczenie to dziala nie tylko w obrebie nieruchomosci, ale na terenie calego kraju. Ochrona obejmuje równiez szkody powstale wskutek amatorskiego uprawiania sportu oraz spowodowane przez zwierzeta domowe.
+                  OC w życiu prywatnym to ochrona przed finansowymi skutkami za szkody wyrządzone osobom trzecim. Co ważne, ubezpieczenie to działa nie tylko w obrębie nieruchomości, ale na terenie całego kraju. Ochrona obejmuje również szkody powstałe wskutek amatorskiego uprawiania sportu oraz spowodowane przez zwierzęta domowe.
                   <br />
                   <br />
                 </FullScreenDialog>
@@ -88,9 +88,10 @@ export default function Insurances() {
                 <li>OC/AC</li>
                 <li>NNW/ASS</li>
                 <FullScreenDialog title="Komunikacyjne">
-                  OC/AC-OC posiadaczy pojazdów mechanicznych jest ubezpieczeniem obowiazkowym, kazdy wlasciciel pojazdu powinien takie ubezpieczenie miec. Nalezy pamietac, ze ubezpieczenie OC chroni nas przede wszystkim od szkód wyrzadzonych w wyniku poruszania sie naszego pojazdu.
-                  Autocasco jest polisa dobrowolna, która moze zostac wykupiona w pakiecie razem z obowiazkowym ubezpieczeniem odpowiedzialnosci cywilnej lub tez jako samodzielne ryzyko, niezalezne od okresu ochrony ubezpieczenia OC. Zakres AC obejmuje wszelkie zdarzenia losowe takie jak upadek drzewa na auto, uszkodzenie karoserii przez grad, wandalizm, kradziez oraz szkody wlasne.
-                  NNW/ASS-Jest ubezpieczeniem dobrowolnym, które mozna zawrzec wraz z ubezpieczeniem OC lub AC. Ubezpieczenie nastepstw nieszczesliwych wypadków nalezy do grupy ubezpieczen osobowych, w których ochrona objete jest zycie kierowcy i pasazerów od takich przypadków jak wsiadanie lub wysiadanie z pojazdu albo bezposrednio przy zaladunku, badz roladunku.
+                  OC posiadaczy pojazdów mechanicznych jest ubezpieczeniem obowiązkowym. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.
+                  Autocasco jest dobrowolne i może zostać wykupione w pakiecie razem z obowiązkowym ubezpieczeniem odpowiedzialności cywilnej lub tez jako samodzielne ryzyko, niezależne od okresu ochrony ubezpieczenia OC. Zakres AC obejmuje wszelkie zdarzenia losowe takie jak upadek drzewa na auto, uszkodzenie karoserii przez grad, wandalizm, kradzież czy szkody własne.
+                  NNW jest ubezpieczeniem dobrowolnym, które można zawrzeć wraz z ubezpieczeniem OC lub AC. Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochrona objęte jest życie kierowcy oraz pasażerów od takich przypadków jak wsiadanie lub wysiadanie z pojazdu albo bezpośrednio przy załadunku, bądź rozładunku.
+                  Assistance jest ubezpieczeniem dobrowolnym, mający na celu zapewnienie ubezpieczonemu określonej pomocy np. technicznej lub medycznej w związku z powstałą awaria lub kolizja. Firmy oferują bardzo różne zakresy usług assistance, dlatego przed zakupem trzeba się zastanowić, czy może być Ci potrzebne holowanie jedynie na terenie RP czy też za granicą.
                 </FullScreenDialog>
               </ul>
             </div>
@@ -105,10 +106,10 @@ export default function Insurances() {
                 <li>Turystyczne</li>
                 <li>Służbowe</li>
                 <FullScreenDialog title="Służbowe i turystyczne">
-                  Glównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia(KLZ), które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport miedzy placówkami medycznymi. Koszty leczenia sa bardzo zróznicowane, dlatego trzeba wziac pod uwage stawki obowiazujace w miejscu, do którego sie aktualnie ybieramy.
+                  Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy.
                   <br />
                   <br />
-                  Podczas wyjazdu za granice w celach zarobkowych, czy tez podrózy sluzbowej powinnismy zadbac o ubezpieczenie kosztów leczenia w razie choroby badz nieszczesliwego wypadku. Nalezy pamietac, aby polisa obejmowala swoim zakresem prace za granica, w przeciwnym wypadku ubezpieczyciel moze odmówic udzielenia pomocy podczas naglego zdarzenia.
+                  Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia.
                   <br />
                   <br />
                 </FullScreenDialog>
@@ -125,10 +126,10 @@ export default function Insurances() {
                 <li>OC rolnika</li>
                 <li>Budynki/uprawy</li>
                 <FullScreenDialog title="OC rolnika, budynki i uprawy">
-                  Ubezpieczenie OC rolników obejmuje odpowiedzialnosc cywilna rolnika oraz kazdej osoby, która pracujac w gospodarstwie rolnym - w okresie trwania ochrony ubezpieczeniowej - wyrzadzila szkode zwiazana z funkcjonowaniem tego gospodarstwa. Ta forma ubezpieczenia chroni równiez w przypadku kolizji i wypadków w których wine poniesli kierujacy pojazdami wolnobieznymi (np. maszynami rolniczymi), nalezacymi do ubezpieczonego rolnika i uzytkowanymi w jego gospodarstwie.
+                  OC rolnika obejmuje odpowiedzialnością rolnika oraz każdą osobę, która pracując w gospodarstwie wyrządziła szkodę związaną z funkcjonowaniem tego gospodarstwa. Ta forma ubezpieczenia chroni również w przypadku kolizji i wypadków, w których winę ponieśli kierujący pojazdami wolnobieżnymi, należącymi do ubezpieczonego rolnika i użytkowanymi w jego gospodarstwie.
                   <br />
                   <br />
-                  Obowiazkowe ubezpieczenie budynków rolniczych to przede wszystkim ubezpieczenie od ognia i innych zdarzen losowych. Objete nim sa fundamenty, izolacje, sciany zewnetrzne i wewnetrzne, tynki, stropy schody, balkony, dachy, instalacje oraz stale elementy wykonczeniowe. Ubezpieczenie zapewnia praktycznie pelna ochrone ubezpieczonych roslin za niska skladke. Zakres i przedmiot ubezpieczenia uzalezniony jest od uregulowan zawartych w ustawie o doplatach do ubezpieczen upraw rolnych i zwierzat gospodarskich. Ubezpieczeniem objeta moze zostac prawie cala produkcja roslinna. Kazdy ma mozliwosc wyboru wariantu ubezpieczenia i tym samym dopasowania jego zakresu do swoich indywidualnych potrzeb.
+                  Obowiązkowe ubezpieczenie budynków rolniczych to przede wszystkim ubezpieczenie od ognia i innych zdarzeń losowych. Objęte są nim fundamenty, izolacje, ściany zewnętrzne i wewnętrzne, tynki, stropy schody, balkony, dachy, instalacje oraz stale elementy wykończeniowe. Ubezpieczenie zapewnia praktycznie pełną ochronę ubezpieczonych roślin za niska składkę. Zakres i przedmiot ubezpieczenia uzależniony jest od uregulowań zawartych w ustawie o dopłatach do ubezpieczeń upraw rolnych i zwierząt gospodarskich. Ubezpieczeniem objęta może zostać prawie cala produkcja roślinna.
                   <br />
                   <br />
                 </FullScreenDialog>
