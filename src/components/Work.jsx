@@ -5,6 +5,17 @@ export default class About extends Component {
         return (
           <section className="colorlib-experience" data-section="work">
               <div className="colorlib-narrow-content">
+                  <div className="row animate-box" data-animate-effect="fadeInLeft">
+                      <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                          <div className="hire">
+                              <h2 style={{ textAlign: 'center' }}>
+                                  Sprzedaż polis online z rabatem -10%
+                              </h2>
+                          </div>
+                      </div>
+                  </div>
+                  <br />
+                  <br />
                   <div className="row">
                       <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                            data-animate-effect="fadeInLeft">
@@ -13,6 +24,10 @@ export default class About extends Component {
                   </div>
                   <div className="row">
                       <div className="col-md-12">
+                          <p style={{ fontSize: '1.4em' }}>
+                              Pragnę, aby współpraca przynosiła korzyści dla obu stron. Wysoka jakość świadczonych usług jest autoreklamą, która pozytywnie działa na dobrą opinię. W biznesie wykazuję się profesjonalnym podejściem, żeby współpraca była komfortowa. Przedstawiam Państwu kilka atutów płynących ze współpracy:
+                          </p>
+                          <br />
                           <div className="timeline-centered">
                               <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                   <div className="timeline-entry-inner">
@@ -22,8 +37,7 @@ export default class About extends Component {
                                       </div>
 
                                       <div className="timeline-label">
-                                          <h2>Poszerzasz ofertę</h2>
-                                          <br />
+                                          <h2 style={{ marginBottom: 10 }}>Poszerzasz ofertę</h2>
                                           <p>Nie tracisz klienta, a przyciągasz nowych coraz większą i lepszą ofertą. Twoi klienci mają możliwość zakupu nowych usług właśnie u Ciebie.</p>
                                       </div>
                                   </div>
@@ -37,8 +51,7 @@ export default class About extends Component {
                                       </div>
 
                                       <div className="timeline-label">
-                                          <h2>Zyskujesz wsparcie</h2>
-                                          <br />
+                                          <h2 style={{ marginBottom: 10 }}>Zyskujesz wsparcie</h2>
                                           <p>Wspieram swoich współpracowników w ich własnych działaniach, a prośby o pomoc i zlecone mi zadania traktuję priorytetowo.</p>
                                       </div>
                                   </div>
@@ -52,8 +65,7 @@ export default class About extends Component {
                                       </div>
 
                                       <div className="timeline-label">
-                                          <h2>Nie ponosisz kosztów</h2>
-                                          <br />
+                                          <h2 style={{ marginBottom: 10 }}>Nie ponosisz kosztów</h2>
                                           <p>Współpraca wymaga jedynie chęci. Nie wiążą się z nią żadne zobowiązania. Nie wymagam osiągania sprzedaży oraz nie ustanawiam limitów - pracujesz, kiedy chcesz.</p>
                                       </div>
                                   </div>
@@ -67,9 +79,8 @@ export default class About extends Component {
                                       </div>
 
                                       <div className="timeline-label">
-                                          <h2>Zarabiasz</h2>
-                                          <br />
-                                          <p>Rozszerzenie własnej oferty to okazja do zwiększenia Twoich zarobków. Korzystnym wynikiem naszej współpracy będą finanse, z uwagi na atrakcyjne prowizje od sprzedaży.</p>
+                                          <h2 style={{ marginBottom: 10 }}>Zarabiasz</h2>
+                                          <p>Rozszerzenie własnej oferty to okazja do zwiększenia Twoich zarobków. Korzystnym wynikiem współpracy będą finanse, z uwagi na atrakcyjne prowizje od sprzedaży.</p>
                                       </div>
                                   </div>
                               </article>

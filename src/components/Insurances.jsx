@@ -51,7 +51,7 @@ export default function Insurances() {
                   Indywidualne ubezpieczenie na życie kierowane jest do osób fizycznych. Ochroną ubezpieczeniową objęte jest zdrowie i życie Ubezpieczonego. Świadczenie może być wypłacone ubezpieczonemu lub osobie uprawnionej np. w przypadku trwałego inwalidztwa czy w przypadku zgonu Ubezpieczonego.
                   <br />
                   <br />
-                  Grupowe ubezpieczenie na życie to dobre zabezpieczenie zdrowia i życia pracowników oraz ich rodzin. Kierowane jest do osób zatrudnionych w jednym miejscu pracy-grupa liczona już od trzech osób, a także rodzina pracownika-malzonek lub konkubent jak i pełnoletnie dzieci. Ochroną objęte jest życie i zdrowie osób wymienionych w umowie, co daje Ubezpieczonemu poczucie zabezpieczenia.
+                  Grupowe ubezpieczenie na życie to dobre zabezpieczenie zdrowia i życia pracowników oraz ich rodzin. Kierowane jest do osób zatrudnionych w jednym miejscu pracy - grupa liczona już od trzech osób, a także rodzina pracownika - malzonek lub konkubent jak i pełnoletnie dzieci. Ochroną objęte jest życie i zdrowie osób wymienionych w umowie, co daje Ubezpieczonemu poczucie zabezpieczenia.
                   <br />
                   <br />
                 </FullScreenDialog>
@@ -68,7 +68,7 @@ export default function Insurances() {
                 <li>Dom</li>
                 <li>Mieszkanie</li>
                 <FullScreenDialog title="Dom i mieszkanie">
-                  Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od zalania, pożaru, silnego wiatru i wielu innych zdarzeń losowych, jak i również od przepiec związanych ze zmianą napięcia w instalacji elektrycznej. Dom jest ubezpieczony również od kradzieży oraz zniszczeń dokonanych przez osoby trzecie.
+                  Indywidualne ubezpieczenie na życie kierowane jest do osób fizycznych. Ochroną ubezpieczeniową objęte jest zdrowie i życie Ubezpieczonego. Świadczenie może być wypłacone ubezpieczonemu lub osobie uprawnionej np. w przypadku trwałego inwalidztwa czy w przypadku zgonu Ubezpieczonego. Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od zalania, pożaru, silnego wiatru i wielu innych zdarzeń losowych, jak i również od przepieć związanych ze zmianą napięcia w instalacji elektrycznej. Dom jest ubezpieczony również od kradzieży oraz zniszczeń dokonanych przez osoby trzecie.
                   <br />
                   <br />
                   OC w życiu prywatnym to ochrona przed finansowymi skutkami za szkody wyrządzone osobom trzecim. Co ważne, ubezpieczenie to działa nie tylko w obrębie nieruchomości, ale na terenie całego kraju. Ochrona obejmuje również szkody powstałe wskutek amatorskiego uprawiania sportu oraz spowodowane przez zwierzęta domowe.
@@ -88,10 +88,14 @@ export default function Insurances() {
                 <li>OC/AC</li>
                 <li>NNW/ASS</li>
                 <FullScreenDialog title="Komunikacyjne">
-                  OC posiadaczy pojazdów mechanicznych jest ubezpieczeniem obowiązkowym. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.
-                  Autocasco jest dobrowolne i może zostać wykupione w pakiecie razem z obowiązkowym ubezpieczeniem odpowiedzialności cywilnej lub tez jako samodzielne ryzyko, niezależne od okresu ochrony ubezpieczenia OC. Zakres AC obejmuje wszelkie zdarzenia losowe takie jak upadek drzewa na auto, uszkodzenie karoserii przez grad, wandalizm, kradzież czy szkody własne.
-                  NNW jest ubezpieczeniem dobrowolnym, które można zawrzeć wraz z ubezpieczeniem OC lub AC. Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochrona objęte jest życie kierowcy oraz pasażerów od takich przypadków jak wsiadanie lub wysiadanie z pojazdu albo bezpośrednio przy załadunku, bądź rozładunku.
-                  Assistance jest ubezpieczeniem dobrowolnym, mający na celu zapewnienie ubezpieczonemu określonej pomocy np. technicznej lub medycznej w związku z powstałą awaria lub kolizja. Firmy oferują bardzo różne zakresy usług assistance, dlatego przed zakupem trzeba się zastanowić, czy może być Ci potrzebne holowanie jedynie na terenie RP czy też za granicą.
+                  <p>
+                    OC posiadaczy pojazdów mechanicznych jest ubezpieczeniem obowiązkowym. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.
+                    Autocasco jest dobrowolne i może zostać wykupione w pakiecie razem z obowiązkowym ubezpieczeniem odpowiedzialności cywilnej lub jako samodzielne ryzyko, niezależne od okresu ochrony ubezpieczenia OC. Zakres AC obejmuje wszelkie zdarzenia losowe takie jak upadek drzewa na auto, uszkodzenie karoserii przez grad, wandalizm, kradzież czy szkody własne.
+                  </p>
+                  <p>
+                    NNW jest ubezpieczeniem dobrowolnym, które można zawrzeć wraz z ubezpieczeniem OC lub AC. Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochroną objęte jest życie kierowcy oraz pasażerów od takich przypadków jak wsiadanie lub wysiadanie z pojazdu albo bezpośrednio przy załadunku, bądź rozładunku.
+                    Assistance jest ubezpieczeniem dobrowolnym, mający na celu zapewnienie ubezpieczonemu określonej pomocy np. technicznej lub medycznej w związku z powstałą awarią lub kolizja. Firmy oferują bardzo różne zakresy usług assistance, dlatego przed zakupem trzeba się zastanowić, czy może być Ci potrzebne holowanie jedynie na terenie RP czy też za granicą.
+                  </p>
                 </FullScreenDialog>
               </ul>
             </div>
@@ -129,7 +133,7 @@ export default function Insurances() {
                   OC rolnika obejmuje odpowiedzialnością rolnika oraz każdą osobę, która pracując w gospodarstwie wyrządziła szkodę związaną z funkcjonowaniem tego gospodarstwa. Ta forma ubezpieczenia chroni również w przypadku kolizji i wypadków, w których winę ponieśli kierujący pojazdami wolnobieżnymi, należącymi do ubezpieczonego rolnika i użytkowanymi w jego gospodarstwie.
                   <br />
                   <br />
-                  Obowiązkowe ubezpieczenie budynków rolniczych to przede wszystkim ubezpieczenie od ognia i innych zdarzeń losowych. Objęte są nim fundamenty, izolacje, ściany zewnętrzne i wewnętrzne, tynki, stropy schody, balkony, dachy, instalacje oraz stale elementy wykończeniowe. Ubezpieczenie zapewnia praktycznie pełną ochronę ubezpieczonych roślin za niska składkę. Zakres i przedmiot ubezpieczenia uzależniony jest od uregulowań zawartych w ustawie o dopłatach do ubezpieczeń upraw rolnych i zwierząt gospodarskich. Ubezpieczeniem objęta może zostać prawie cala produkcja roślinna.
+                  Obowiązkowe ubezpieczenie budynków rolniczych to przede wszystkim ubezpieczenie od ognia i innych zdarzeń losowych. Objęte są nim fundamenty, izolacje, ściany zewnętrzne i wewnętrzne, tynki, stropy schody, balkony, dachy, instalacje oraz stałe elementy wykończeniowe. Ubezpieczenie zapewnia praktycznie pełną ochronę ubezpieczonych roślin za niską składkę. Zakres i przedmiot ubezpieczenia uzależniony jest od uregulowań zawartych w ustawie o dopłatach do ubezpieczeń upraw rolnych i zwierząt gospodarskich. Ubezpieczeniem objęta może zostać prawie cała produkcja roślinna.
                   <br />
                   <br />
                 </FullScreenDialog>

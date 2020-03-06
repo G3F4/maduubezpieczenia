@@ -4,19 +4,7 @@ export default function Contact() {
   return (
     <section className="colorlib-education" data-section="contact">
       <div className="colorlib-narrow-content">
-        <div className="row animate-box" data-animate-effect="fadeInLeft">
-          <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-            <div className="hire">
-              <h2 style={{ textAlign: 'center' }}>
-                Sprzedaż polis online
-                <br />
-                z rabatem -10%
-              </h2>
-            </div>
-          </div>
-        </div>
-        <br />
-        <br />
+
         <div className="row animate-box" data-animate-effect="fadeInLeft">
           <div className="col-md-9 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
             <h2 className="colorlib-heading">Kontakt</h2>

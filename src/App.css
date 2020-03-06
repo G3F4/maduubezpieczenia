@@ -161,3 +161,8 @@ font-size: 24px;
   line-height: 1.75;
   font-size: 25px;
 }
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+  font-size: 20px!important;
+  font-weight: 500!important;
+}
