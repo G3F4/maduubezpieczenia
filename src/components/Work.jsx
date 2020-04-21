@@ -1,19 +1,24 @@
 import React, { Component } from 'react'
+import Button from '@material-ui/core/Button';
 
 export default class About extends Component {
     render() {
         return (
           <section className="colorlib-experience" data-section="work">
               <div className="colorlib-narrow-content">
-                  <div className="row animate-box" data-animate-effect="fadeInLeft">
-                      <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-                          <div className="hire">
-                              <h2 style={{ textAlign: 'center' }}>
-                                  Sprzedaż polis online z rabatem -10%
-                              </h2>
+                  <a href="https://bezpieczny.pl/27218">
+                      <div className="row animate-box" data-animate-effect="fadeInLeft">
+                          <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+                              <div className="hire" style={{ textAlign: 'center' }}>
+                                  <Button size="large">
+                                      <h2 style={{ textAlign: 'center' }}>
+                                          Kupuj online 10% taniej
+                                      </h2>
+                                  </Button>
+                              </div>
                           </div>
                       </div>
-                  </div>
+                  </a>
                   <br />
                   <br />
                   <div className="row">

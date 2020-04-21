@@ -10,7 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from '@material-ui/icons/Close';
 import { AppContext } from "../App";
 
-export default function ResponsiveDialog({ children, title }) {
+export default function ResponsiveDialog({ children, title, openButton, style }) {
   const [open, setOpen] = React.useState(false);
   const { showSidebar, hideSidebar } = React.useContext(AppContext);
   const theme = useTheme();
@@ -27,10 +27,14 @@ export default function ResponsiveDialog({ children, title }) {
   };
 
   return (
-    <div style={{ textAlign: 'right', marginTop: 20, marginRight: 10 }}>
-      <Button variant="contained" color="primary" onClick={handleClickOpen}>
-        Więcej
-      </Button>
+    <div style={style || { textAlign: 'right', marginTop: 20, marginRight: 10 }}>
+      <div onClick={handleClickOpen}>
+        {openButton || (
+          <Button variant="contained" color="primary">
+            Więcej
+          </Button>
+        )}
+      </div>
       <Dialog
         fullScreen={fullScreen}
         open={open}

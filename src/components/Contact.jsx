@@ -33,6 +33,18 @@ export default function Contact() {
                 </div>
               </div>
             </a>
+            <br />
+            <a href="https://goo.gl/maps/QghovEJ3scJ2AA7G8">
+              <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
+                   data-animate-effect="fadeInLeft">
+                <div className="colorlib-icon">
+                  <i className="icon-globe-outline"></i>
+                </div>
+                <div className="colorlib-text">
+                  <p>Ubezpieczenia Madu Marcin Marczyk<br />05-806 Granica, ul. Mikołaja Reja 37 </p>
+                </div>
+              </div>
+            </a>
           </div>
           <div style={{ textAlign: 'center', flexGrow: 1 }}>
             <img alt="logo" src="images/ja.png" />
