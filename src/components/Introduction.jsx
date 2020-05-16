@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Lottie from 'react-lottie';
+import tarczaAnimationData from './Tarcza';
 
 const backgroundImageSlide1 = 'url(images/MaduFamily720.gif)';
 const backgroundImageSlide3 = 'url(images/windowBg.jpg)';
@@ -7,14 +9,26 @@ const backgroundImageSlide4 = 'url(images/img_bg11.jpg)';
 const slideClassName = 'col-md-9 col-md-offset-5 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text';
 
 export default function Introduction() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: tarczaAnimationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+
   return (
     <div className="Introduction">
       <section id="colorlib-hero" className="js-fullheight" style={{ marginBottom: 20 }}>
         <div className="flexslider js-fullheight">
           <ul className="slides js-fullheight">
-            <li className="js-fullheight" style={{ backgroundImage: backgroundImageSlide1 }}>
+            <Lottie
+              options={defaultOptions}
+            />
+            {/*<li className="js-fullheight" style={{ backgroundImage: backgroundImageSlide1 }}>*/}
 
-            </li>
+            {/*</li>*/}
 
             {/*<li style={{ backgroundImage: backgroundImageSlide4 }}>*/}
             {/*  <div className="overlay" />*/}
