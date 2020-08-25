@@ -2,6 +2,18 @@ import React from 'react';
 import FullScreenDialog from "./FullScreenDialog";
 import Typography from "@material-ui/core/Typography";
 import Button from '@material-ui/core/Button';
+import { withStyles } from '@material-ui/core/styles';
+import { amber } from '@material-ui/core/colors';
+
+const ColorButton = withStyles((theme) => ({
+  root: {
+    color: theme.palette.getContrastText(amber[500]),
+    backgroundColor: amber[500],
+    '&:hover': {
+      backgroundColor: amber[700],
+    },
+  },
+}))(Button);
 
 export default function Insurances() {
   return (
@@ -11,16 +23,17 @@ export default function Insurances() {
           <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
             <div className="hire">
               <FullScreenDialog style={{ textAlign: 'center' }} title="Pies i kot" buttonAlign="center" buttonVariant="outlined" openButton={(
-                <Button>
+                <ColorButton variant="contained" color="primary">
                   <h2>
                     NOWOŚĆ! Ubezpieczenie psa i kota
                   </h2>
-                </Button>
+                </ColorButton>
               )}>
-                <Typography style={{ fontSize: 18 }} color="error">Ze względu na utrudnienia związane z obecną sytuacją, premiera produktu została przełożona.
-                  Ubezpieczenie dostępne będzie w sprzedaży od 25 czerwca br.</Typography>
+                <Typography style={{ fontSize: 18 }} color="error">
+                  Informacja o dostępności ubezpieczenia pojawi się na 14 dni przed rozpoczęciem sprzedaży.
+                </Typography>
                 <br />
-                <div>Jeśli jesteś zainteresowany, skontaktuj się.</div>
+                <div>Zainteresowanych proszę o kontakt.</div>
               </FullScreenDialog>
             </div>
           </div>
@@ -43,10 +56,11 @@ export default function Insurances() {
                 <li className="insurancesTileItem">Pies</li>
                 <li className="insurancesTileItem">Kot</li>
                 <FullScreenDialog title="Pies i kot">
-                  <Typography style={{ fontSize: 18 }} color="error">Ze względu na utrudnienia związane z obecną sytuacją, premiera produktu została przełożona.
-                    Ubezpieczenie dostępne będzie w sprzedaży od 25 czerwca br.</Typography>
+                  <Typography style={{ fontSize: 18 }} color="error">
+                    Informacja o dostępności ubezpieczenia pojawi się na 14 dni przed rozpoczęciem sprzedaży.
+                  </Typography>
                   <br />
-                  <div>Jeśli jesteś zainteresowany, skontaktuj się.</div>
+                  <div>Zainteresowanych proszę o kontakt.</div>
                 </FullScreenDialog>
               </ul>
             </div>

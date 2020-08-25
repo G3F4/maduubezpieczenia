@@ -1,20 +1,33 @@
 import React, { Component } from 'react'
 import Button from '@material-ui/core/Button';
+import { withStyles } from '@material-ui/core/styles';
+import { amber } from '@material-ui/core/colors';
+
+const ColorButton = withStyles((theme) => ({
+    root: {
+        color: theme.palette.getContrastText(amber[500]),
+        backgroundColor: amber[500],
+        '&:hover': {
+            backgroundColor: amber[700],
+        },
+    },
+}))(Button);
 
 export default class About extends Component {
     render() {
         return (
           <section className="colorlib-experience" data-section="work">
               <div className="colorlib-narrow-content">
-                  <a href="https://bezpieczny.pl/27218">
+                  <a href="https://bezpieczny.pl/27218" target="_blank">
                       <div className="row animate-box" data-animate-effect="fadeInLeft">
                           <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                               <div className="hire" style={{ textAlign: 'center' }}>
-                                  <Button size="large">
-                                      <h2 style={{ textAlign: 'center' }}>
+                                  <ColorButton variant="contained" color="primary">
+                                      <h2>
                                           Kupuj online 10% taniej
                                       </h2>
-                                  </Button>
+                                      
+                                  </ColorButton>
                               </div>
                           </div>
                       </div>

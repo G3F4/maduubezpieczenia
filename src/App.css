@@ -166,3 +166,15 @@ font-size: 24px;
   font-size: 20px!important;
   font-weight: 500!important;
 }
+
+.contactWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contactWrapper {
+    flex-wrap: nowrap;
+  }
+}
