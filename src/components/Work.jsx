@@ -24,7 +24,7 @@ export default class About extends Component {
                               <div className="hire" style={{ textAlign: 'center' }}>
                                   <ColorButton variant="contained" color="primary">
                                       <h2>
-                                          Kupuj online 10% taniej
+                                          Kupuj online 10%&nbsp;taniej
                                       </h2>
                                       
                                   </ColorButton>

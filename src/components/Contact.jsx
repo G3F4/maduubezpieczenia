@@ -17,7 +17,7 @@ export default function Contact() {
                   <i className="icon-mail"></i>
                 </div>
                 <div className="colorlib-text">
-                  <p>marcin.marczyk@ubezpieczeniamadu.pl</p>
+                  <p>kontakt@ubezpieczeniamadu.pl</p>
                 </div>
               </div>
             </a>
@@ -32,15 +32,30 @@ export default function Contact() {
                 </div>
               </div>
             </a>
-            <br />
             <a href="https://goo.gl/maps/QghovEJ3scJ2AA7G8">
               <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
-                   data-animate-effect="fadeInLeft">
+                   data-animate-effect="fadeInLeft" style={{ marginBottom: 12 }}>
                 <div className="colorlib-icon">
                   <i className="icon-globe-outline"></i>
                 </div>
                 <div className="colorlib-text">
                   <p>Ubezpieczenia Madu Marcin Marczyk<br />05-806 Granica, ul. Mikołaja Reja 37 </p>
+                </div>
+              </div>
+            </a>
+            <a href="https://goo.gl/maps/QghovEJ3scJ2AA7G8" style={{ marginTop: -10 }}>
+              <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
+                   data-animate-effect="fadeInLeft">
+                <div className="colorlib-icon">
+                  <i className="icon-briefcase"></i>
+
+                </div>
+                <div className="colorlib-text">
+                  <p>
+                    <b>NIP:</b> 1234567890
+                    <br />
+                    <b>REGON:</b> 1234567890
+                  </p>
                 </div>
               </div>
             </a>

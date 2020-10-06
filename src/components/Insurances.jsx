@@ -68,7 +68,7 @@ export default function Insurances() {
           <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
             <div className="services color-1">
               <div className="insurancesTileHeader">
-                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-user-add"></i></span>
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-user-add-outline"></i></span>
                 <h2>Zdrowotne</h2>
               </div>
               <ul>
@@ -131,7 +131,7 @@ export default function Insurances() {
           <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
             <div className="services color-1">
               <div className="insurancesTileHeader">
-                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-briefcase"></i></span>
+                <span className="icon2"><i style={{ fontSize: 36 }} className="icon-plane-outline"></i></span>
                 <h2>Podróżne</h2>
               </div>
               <ul>
