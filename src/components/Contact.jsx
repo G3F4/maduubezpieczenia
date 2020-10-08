@@ -52,9 +52,9 @@ export default function Contact() {
                 </div>
                 <div className="colorlib-text">
                   <p>
-                    <b>NIP:</b> 1234567890
+                    <b>NIP:</b> 5342470071
                     <br />
-                    <b>REGON:</b> 1234567890
+                    <b>REGON:</b> 387212140
                   </p>
                 </div>
               </div>
