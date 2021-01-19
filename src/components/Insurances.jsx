@@ -89,8 +89,8 @@ export default function Insurances() {
                 <h2>Majątkowe</h2>
               </div>
               <ul>
-                <li>Dom</li>
-                <li>Mieszkanie</li>
+                <li>Dom i mieszkanie</li>
+                <li>OC w życiu prywatnym</li>
                 <FullScreenDialog
                     firstTitle="Dom i mieszkanie"
                     firstContent={`Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od wielu zdarzeń losowych. Ustalamy wartość i w zależności od tego czy decydujemy się kupić ubezpieczenie od tzw. ,,zdarzeń nazwanych" czy All risk, nasza nieruchomość jest zabezpieczona m.in. od wydarzeń związanych ze zmianą pogody np. pożar lub powódź, a także te, w które ingerowała osoba trzecia np. kradzież albo dewastacja. Istnieje również możliwość ubezpieczenia nieruchomości w czasie budowy. Dom musi być w stanie zamkniętym surowym, czyli posiadać pełne zadaszenie i zamknięte wszystkie otwory zewnętrzne, jak miejsca na okna i drzwi.`}
@@ -130,10 +130,10 @@ W związku z powstałą awarią lub kolizją usługa assistance w zależności o
                 <li>Turystyczne</li>
                 <li>Służbowe</li>
                 <FullScreenDialog
-                    firstTitle="Służbowe"
-                    firstContent="Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy."
-                    secondTitle="Turystyczne"
-                    secondContent="Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia."
+                    secondTitle="Służbowe"
+                    secondContent="Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy."
+                    firstTitle="Turystyczne"
+                    firstContent="Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia."
                 />
               </ul>
             </div>
@@ -145,8 +145,8 @@ W związku z powstałą awarią lub kolizją usługa assistance w zależności o
                 <h2>Rolne</h2>
               </div>
               <ul>
+                <li>Gospodarstwo</li>
                 <li>OC rolnika</li>
-                <li>Budynki/uprawy</li>
                 <FullScreenDialog
                     firstTitle="Gospodarstwo"
                     firstContent="Rolnicy są zobowiązani do wykupienia polisy odpowiedzialności cywilnej oraz do ubezpieczenia budynków zlokalizowanych na terenie gospodarstwa rolnego. Celem obowiązkowego ubezpieczenia budynków gospodarstwa rolnego jest pomoc finansowa w przypadku wystąpienia nieprzewidzianych szkód z różnych przyczyn."
