@@ -34,9 +34,9 @@ export default function App() {
             <Introduction />
             <Insurances />
             <Partners />
-            <Work />
-            <Contact />
+            {/*<Work />*/}
             <About />
+            <Contact />
           </div>
         </div>
       </div>

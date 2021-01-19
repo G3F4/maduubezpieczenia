@@ -22,17 +22,17 @@ export default function Contact() {
               </div>
             </a>
             <br />
-            <a href="tel://+48 798 385 487">
+            <a href="tel://+48 514 980 928">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
                   <i className="icon-phone"></i>
                 </div>
                 <div className="colorlib-text">
-                  <p>+48 798 385 487</p>
+                  <p>+48 514 980 928</p>
                 </div>
               </div>
             </a>
-            <a href="https://goo.gl/maps/QghovEJ3scJ2AA7G8">
+            <a href="https://goo.gl/maps/QghovEJ3scJ2AA7G8" target="_blank">
               <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
                    data-animate-effect="fadeInLeft" style={{ marginBottom: 12 }}>
                 <div className="colorlib-icon">
@@ -43,7 +43,7 @@ export default function Contact() {
                 </div>
               </div>
             </a>
-            <a href="https://goo.gl/maps/QghovEJ3scJ2AA7G8" style={{ marginTop: -10 }}>
+            <a href="#" style={{ marginTop: -10 }}>
               <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
                    data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
@@ -52,9 +52,9 @@ export default function Contact() {
                 </div>
                 <div className="colorlib-text">
                   <p>
-                    <b>NIP:</b> 5342470071
+                    NIP: 5342470071
                     <br />
-                    <b>REGON:</b> 387212140
+                    REGON: 387212140
                   </p>
                 </div>
               </div>

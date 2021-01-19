@@ -21,20 +21,14 @@ export default function Insurances() {
       <div className="colorlib-narrow-content">
         <div className="row">
           <div className="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
-            <div className="hire">
-              <FullScreenDialog style={{ textAlign: 'center' }} title="Pies i kot" buttonAlign="center" buttonVariant="outlined" openButton={(
-                <ColorButton variant="contained" color="primary">
-                  <h2>
-                    NOWOŚĆ! Ubezpieczenie psa i kota
+            <div className="hire" style={{ textAlign: 'center' }}>
+              <ColorButton variant="contained" color="primary">
+                <a target="_blank" href="https://bezpieczny.pl/27218">
+                  <h2 style={{ marginLeft: 20, marginRight: 20 }}>
+                    KUPUJ ONLINE 10%&nbsp;TANIEJ
                   </h2>
-                </ColorButton>
-              )}>
-                <Typography style={{ fontSize: 18 }} color="error">
-                  Informacja o dostępności ubezpieczenia pojawi się na 14 dni przed rozpoczęciem sprzedaży.
-                </Typography>
-                <br />
-                <div>Zainteresowanych proszę o kontakt.</div>
-              </FullScreenDialog>
+                </a>
+              </ColorButton>
             </div>
           </div>
         </div>
@@ -55,13 +49,18 @@ export default function Insurances() {
               <ul>
                 <li className="insurancesTileItem">Pies</li>
                 <li className="insurancesTileItem">Kot</li>
-                <FullScreenDialog title="Pies i kot">
-                  <Typography style={{ fontSize: 18 }} color="error">
-                    Informacja o dostępności ubezpieczenia pojawi się na 14 dni przed rozpoczęciem sprzedaży.
-                  </Typography>
-                  <br />
-                  <div>Zainteresowanych proszę o kontakt.</div>
-                </FullScreenDialog>
+                <FullScreenDialog
+                    firstTitle="Pies i kot"
+                    firstContent={
+                      <>
+                        <Typography style={{ fontSize: 18 }} color="error">
+                          W związku z sytuacją panującą w kraju, premiera produktu została przełożona. Informacja o dostępności ubezpieczenia pojawi się na 14 dni przed rozpoczęciem sprzedaży.
+                        </Typography>
+                        <br />
+                        <div>Zainteresowanych proszę o kontakt.</div>
+                      </>
+                    }
+                />
               </ul>
             </div>
           </div>
@@ -74,14 +73,12 @@ export default function Insurances() {
               <ul>
                 <li>Indywidualne</li>
                 <li>Grupowe</li>
-                <FullScreenDialog title="Indywidualne i grupowe">
-                  Indywidualne ubezpieczenie na życie kierowane jest do osób fizycznych. Ochroną ubezpieczeniową objęte jest zdrowie i życie Ubezpieczonego. Świadczenie może być wypłacone ubezpieczonemu lub osobie uprawnionej np. w przypadku trwałego inwalidztwa czy w przypadku zgonu Ubezpieczonego.
-                  <br />
-                  <br />
-                  Grupowe ubezpieczenie na życie to dobre zabezpieczenie zdrowia i życia pracowników oraz ich rodzin. Kierowane jest do osób zatrudnionych w jednym miejscu pracy - grupa liczona już od trzech osób, a także rodzina pracownika - małżonek lub konkubent, jak i pełnoletnie dzieci. Ochroną objęte jest życie i zdrowie osób wymienionych w umowie, co daje Ubezpieczonemu poczucie zabezpieczenia.
-                  <br />
-                  <br />
-                </FullScreenDialog>
+                <FullScreenDialog
+                    firstTitle="Indywidualne"
+                    firstContent="Indywidualne ubezpieczenie na życie kierowane jest do osób fizycznych. Ochroną ubezpieczeniową objęte jest zdrowie i życie Ubezpieczonego. W zależności od zdarzenia świadczenie może być wypłacone ubezpieczonemu na dwa sposoby: jednorazowo lub w formie rat."
+                    secondTitle="Grupowe"
+                    secondContent="Ubezpieczenie obejmuje zdrowie i życie osób wymienionych w umowie. Grupa liczona jest już od trzech osób - może być to rodzina lub pracownicy w jednym zakładzie pracy. Ponadto ubezpieczenie grupowe często jest korzystniejsze pod względem opłat niż w przypadku ochrony jednej osoby."
+                />
               </ul>
             </div>
           </div>
@@ -94,14 +91,12 @@ export default function Insurances() {
               <ul>
                 <li>Dom</li>
                 <li>Mieszkanie</li>
-                <FullScreenDialog title="Dom i mieszkanie">
-                  Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od zalania, pożaru, silnego wiatru i wielu innych zdarzeń losowych, jak i również od przepięć związanych ze zmianą napięcia w instalacji elektrycznej. Dom jest ubezpieczony również od kradzieży oraz zniszczeń dokonanych przez osoby trzecie.
-                  <br />
-                  <br />
-                  OC w życiu prywatnym to ochrona przed finansowymi skutkami za szkody wyrządzone osobom trzecim. Co ważne, ubezpieczenie to działa nie tylko w obrębie nieruchomości, ale na terenie całego kraju. Ochrona obejmuje również szkody powstałe wskutek amatorskiego uprawiania sportu oraz spowodowane przez zwierzęta domowe.
-                  <br />
-                  <br />
-                </FullScreenDialog>
+                <FullScreenDialog
+                    firstTitle="Dom i mieszkanie"
+                    firstContent={`Ubezpieczenie domu lub mieszkania to ochrona dla nieruchomości od wielu zdarzeń losowych. Ustalamy wartość i w zależności od tego czy decydujemy się kupić ubezpieczenie od tzw. ,,zdarzeń nazwanych" czy All risk, nasza nieruchomość jest zabezpieczona m.in. od wydarzeń związanych ze zmianą pogody np. pożar lub powódź, a także te, w które ingerowała osoba trzecia np. kradzież albo dewastacja. Istnieje również możliwość ubezpieczenia nieruchomości w czasie budowy. Dom musi być w stanie zamkniętym surowym, czyli posiadać pełne zadaszenie i zamknięte wszystkie otwory zewnętrzne, jak miejsca na okna i drzwi.`}
+                    secondTitle="OC w życiu prywatnym"
+                    secondContent="Ubezpieczenie odpowiedzialności cywilnej w życiu prywatnym zabezpiecza nas finansowo na wypadek szkód, które nieumyślnie wyrządzimy osobom trzecim, czyli np. sąsiadom czy przechodniom. Chodzi tutaj zarówno o szkody majątkowe takie jak zniszczenie mienia, czy też osobowe jak np.: uszkodzenie ciała."
+                />
               </ul>
             </div>
           </div>
@@ -114,17 +109,14 @@ export default function Insurances() {
               <ul>
                 <li>OC/AC</li>
                 <li>NNW/ASS</li>
-                <FullScreenDialog title="Komunikacyjne">
-                  <p>
-                    OC posiadaczy pojazdów mechanicznych jest ubezpieczeniem obowiązkowym. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.
-                    Autocasco jest dobrowolne i może zostać wykupione w pakiecie razem z obowiązkowym ubezpieczeniem odpowiedzialności cywilnej lub jako samodzielne ryzyko, niezależne od okresu ochrony ubezpieczenia OC. Zakres AC obejmuje wszelkie zdarzenia losowe takie jak upadek drzewa na auto, uszkodzenie karoserii przez grad, wandalizm, kradzież czy szkody własne.
-                  </p>
-                  <p>
-                    NNW jest ubezpieczeniem dobrowolnym, które można zawrzeć wraz z ubezpieczeniem OC lub AC. Ubezpieczenie następstw nieszczęśliwych wypadków należy do grupy ubezpieczeń osobowych, w których ochroną objęte jest życie kierowcy oraz pasażerów od takich przypadków jak wsiadanie lub wysiadanie z pojazdu albo bezpośrednio przy załadunku, bądź rozładunku.
-                    <br />
-                    Assistance jest ubezpieczeniem dobrowolnym, mający na celu zapewnienie ubezpieczonemu określonej pomocy np. technicznej lub medycznej w związku z powstałą awarią lub kolizją. Firmy oferują bardzo różne zakresy usług assistance, dlatego przed zakupem trzeba się zastanowić, czy może być Ci potrzebne holowanie jedynie na terenie RP, czy też za granicą.
-                  </p>
-                </FullScreenDialog>
+                <FullScreenDialog
+                    firstTitle="OC/AC"
+                    firstContent={`Każdy właściciel pojazdu mechanicznego musi posiadać ubezpieczenie odpowiedzialności cywilnej. Za jego brak, Ubezpieczeniowy Fundusz Gwarancyjny może nałożyć karę pieniężną określoną w ustawie. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.
+Autocasco jest pakietem dobrowolnym i w zależności od zakresu oraz sum gwarantowanych obejmuje szkody powstałe w skutek losowych zdarzeń. Może zostać wykupione w pakiecie razem z OC lub jako samodzielne ryzyko, niezależne od okresu ochrony obowiązkowego ubezpieczenia.`}
+                    secondTitle="NNW/ASS"
+                    secondContent={`Ubezpieczenie od następstw nieszczęśliwych wypadków można wykupić wraz z ubezpieczeniem OC lub AC. Ubezpieczenie NNW należy do grupy ubezpieczeń osobowych, w których ochroną objęte jest życie i zdrowie kierowcy oraz pasażerów.
+W związku z powstałą awarią lub kolizją usługa assistance w zależności od wykupionego wariantu i obowiązującego zakresu ma na celu zapewnienie ubezpieczonemu określonej pomocy technicznej.`}
+                />
               </ul>
             </div>
           </div>
@@ -137,14 +129,12 @@ export default function Insurances() {
               <ul>
                 <li>Turystyczne</li>
                 <li>Służbowe</li>
-                <FullScreenDialog title="Służbowe i turystyczne">
-                  Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy.
-                  <br />
-                  <br />
-                  Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia.
-                  <br />
-                  <br />
-                </FullScreenDialog>
+                <FullScreenDialog
+                    firstTitle="Służbowe"
+                    firstContent="Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy."
+                    secondTitle="Turystyczne"
+                    secondContent="Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia."
+                />
               </ul>
             </div>
           </div>
@@ -157,14 +147,12 @@ export default function Insurances() {
               <ul>
                 <li>OC rolnika</li>
                 <li>Budynki/uprawy</li>
-                <FullScreenDialog title="OC rolnika, budynki i uprawy">
-                  OC rolnika obejmuje odpowiedzialnością rolnika oraz każdą osobę, która pracując wyrządziła szkodę związaną z funkcjonowaniem tego gospodarstwa. Ta forma ubezpieczenia chroni również w przypadku kolizji i wypadków, w których winę ponieśli kierujący pojazdami wolnobieżnymi, należącymi do ubezpieczonego rolnika i użytkowanymi w jego gospodarstwie.
-                  <br />
-                  <br />
-                  Obowiązkowe ubezpieczenie budynków rolniczych to przede wszystkim ubezpieczenie od ognia i innych zdarzeń losowych. Objęte są nim fundamenty, izolacje, ściany zewnętrzne i wewnętrzne, tynki, stropy schody, balkony, dachy, instalacje oraz stałe elementy wykończeniowe. Ubezpieczenie zapewnia praktycznie pełną ochronę ubezpieczonych roślin za niską składkę. Zakres i przedmiot ubezpieczenia uzależniony jest od uregulowań zawartych w ustawie o dopłatach do ubezpieczeń upraw rolnych i zwierząt gospodarskich. Ubezpieczeniem objęta może zostać prawie cała produkcja roślinna.
-                  <br />
-                  <br />
-                </FullScreenDialog>
+                <FullScreenDialog
+                    firstTitle="Gospodarstwo"
+                    firstContent="Rolnicy są zobowiązani do wykupienia polisy odpowiedzialności cywilnej oraz do ubezpieczenia budynków zlokalizowanych na terenie gospodarstwa rolnego. Celem obowiązkowego ubezpieczenia budynków gospodarstwa rolnego jest pomoc finansowa w przypadku wystąpienia nieprzewidzianych szkód z różnych przyczyn."
+                    secondTitle="OC rolnika"
+                    secondContent="Mechanizm działania ubezpieczenia odpowiedzialności cywilnej rolnika działa w sposób taki sam jak OC w życiu prywatnym. W przypadku powstania szkody - uszkodzenia mienia, uszczerbku na zdrowiu czy śmierci osoby trzeciej - ubezpieczyciel wypłaca świadczenie."
+                />
               </ul>
             </div>
           </div>

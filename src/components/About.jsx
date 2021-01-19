@@ -11,19 +11,13 @@ export default class About extends Component {
                                 <div className="about-desc">
                                     <h2 className="colorlib-heading">O mnie</h2>
                                     <p style={{ fontSize: '1.4em' }}>
-                                      Gwarantuję kompleksową pomoc podczas wyboru ubezpieczenia, troszcząc się o dopasowanie propozycji do konkretnych potrzeb.
-                                      <br />Klienci otrzymują opiekę nie tylko przy wyborze czy zakupie ofert, ale również przy zgłaszaniu zdarzeń.
-                                      <br />W zakresie ubezpieczeń zdrowotnych lub na życie, do każdej osoby, bądź sprawy podchodzę indywidualnie.
-                                      <br />W celu zachowania poczucia bezpieczeństwa współpracuję wyłącznie z przodującymi Towarzystwami Ubezpieczeniowymi.
-                                      <br />Dbam o to, aby moi klienci czuli się bezpieczni i spokojni o swoją przyszłość.
+                                        W trosce o dopasowanie propozycji do konkretnych potrzeb gwarantuję pomoc nie tylko podczas wyboru czy zakupu ubezpieczeń, ale również przy zgłaszaniu zdarzeń.<br />
+                                        W celu utrzymania wysokiej jakości usług współpracuję z przodującymi Towarzystwami Ubezpieczeniowymi.<br />
+                                        Dbam, aby moi klienci czuli się zabezpieczeni i ze spokojem spoglądali w przyszłość.
                                     </p>
                                 </div>
                             </div>
                             <div style={{ textAlign: 'center', flexGrow: 1, width: '50%' }}>
-                                <br />
-                                <br />
-                                <br />
-                                <br />
                                 <br />
                                 <img alt="logo" src="images/ja.png" />
                                 <br />

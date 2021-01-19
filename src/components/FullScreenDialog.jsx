@@ -10,7 +10,7 @@ import IconButton from "@material-ui/core/IconButton";
 import CloseIcon from '@material-ui/icons/Close';
 import { AppContext } from "../App";
 
-export default function ResponsiveDialog({ children, title, openButton, style }) {
+export default function ResponsiveDialog({ openButton, style, firstTitle, firstContent, secondTitle, secondContent }) {
   const [open, setOpen] = React.useState(false);
   const { showSidebar, hideSidebar } = React.useContext(AppContext);
   const theme = useTheme();
@@ -44,7 +44,7 @@ export default function ResponsiveDialog({ children, title, openButton, style })
         <DialogTitle id="responsive-dialog-title">
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ fontSize: 20 }}>
-              {title}
+              {firstTitle}
             </div>
             <div>
               <IconButton edge="start" color="inherit" onClick={handleClose} aria-label="close">
@@ -55,7 +55,19 @@ export default function ResponsiveDialog({ children, title, openButton, style })
         </DialogTitle>
         <DialogContent>
           <DialogContentText style={{ fontSize: 16 }}>
-            {children}
+            {firstContent}
+          </DialogContentText>
+        </DialogContent>
+        <DialogTitle>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ fontSize: 20 }}>
+              {secondTitle}
+            </div>
+          </div>
+        </DialogTitle>
+        <DialogContent>
+          <DialogContentText style={{ fontSize: 16 }}>
+            {secondContent}
           </DialogContentText>
         </DialogContent>
       </Dialog>

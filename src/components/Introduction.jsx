@@ -1,4 +1,7 @@
 import React from 'react';
+import Lottie from 'react-lottie';
+import mobMovieData from './mob.json';
+import deskMovieData from './desk.json';
 
 export default class Introduction extends React.Component {
   constructor(props) {
@@ -15,23 +18,32 @@ export default class Introduction extends React.Component {
   }
 
   render() {
+    const mobOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: mobMovieData,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+      }
+    };
+    const deskOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: deskMovieData,
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+      }
+    };
+
     return (
       <div className="Introduction">
         <section id="colorlib-hero" className="js-fullheight" style={{marginBottom: 20}}>
           <div className="flexslider js-fullheight">
             <ul className="slides js-fullheight">
               {this.state.wideScreen ? (
-                <li className="js-fullheight">
-                  <video poster="images/MklepsDes.gif" id="bgvid" playsinline autoPlay muted loop style={{height: '100%', width: '100%'}}>
-                    <source src="videos/MADUF.mp4" type="video/mp4"/>
-                  </video>
-                </li>
+                  <Lottie options={deskOptions} />
               ) : (
-                <li className="js-fullheight">
-                  <video poster="images/MMobkleps.gif" id="bgvid" playsinline autoPlay muted loop style={{height: '100%', width: '100%'}}>
-                    <source src="videos/MADUMOB.mp4" type="video/mp4"/>
-                  </video>
-                </li>
+                  <Lottie options={mobOptions} />
               )}
             </ul>
           </div>
