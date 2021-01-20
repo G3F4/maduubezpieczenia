@@ -111,11 +111,10 @@ export default function Insurances() {
                 <li>NNW/ASS</li>
                 <FullScreenDialog
                     firstTitle="OC/AC"
-                    firstContent={`Każdy właściciel pojazdu mechanicznego musi posiadać ubezpieczenie odpowiedzialności cywilnej. Za jego brak, Ubezpieczeniowy Fundusz Gwarancyjny może nałożyć karę pieniężną określoną w ustawie. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.
-Autocasco jest pakietem dobrowolnym i w zależności od zakresu oraz sum gwarantowanych obejmuje szkody powstałe w skutek losowych zdarzeń. Może zostać wykupione w pakiecie razem z OC lub jako samodzielne ryzyko, niezależne od okresu ochrony obowiązkowego ubezpieczenia.`}
+                    firstContent={<>Każdy właściciel pojazdu mechanicznego musi posiadać ubezpieczenie odpowiedzialności cywilnej. Za jego brak, Ubezpieczeniowy Fundusz Gwarancyjny może nałożyć karę pieniężną określoną w ustawie. Należy pamiętać, że OC chroni nas przede wszystkim od szkód wyrządzonych w wyniku poruszania się naszego pojazdu.<br/>Autocasco jest pakietem dobrowolnym i w zależności od zakresu oraz sum gwarantowanych obejmuje szkody powstałe w skutek losowych zdarzeń. Może zostać wykupione w pakiecie razem z OC lub jako samodzielne ryzyko, niezależne od okresu ochrony obowiązkowego ubezpieczenia.</>}
                     secondTitle="NNW/ASS"
-                    secondContent={`Ubezpieczenie od następstw nieszczęśliwych wypadków można wykupić wraz z ubezpieczeniem OC lub AC. Ubezpieczenie NNW należy do grupy ubezpieczeń osobowych, w których ochroną objęte jest życie i zdrowie kierowcy oraz pasażerów.
-W związku z powstałą awarią lub kolizją usługa assistance w zależności od wykupionego wariantu i obowiązującego zakresu ma na celu zapewnienie ubezpieczonemu określonej pomocy technicznej.`}
+                    secondContent={<>Ubezpieczenie od następstw nieszczęśliwych wypadków można wykupić wraz z ubezpieczeniem OC lub AC. Ubezpieczenie NNW należy do grupy ubezpieczeń osobowych, w których ochroną objęte jest życie i zdrowie kierowcy oraz pasażerów.<br/>
+                      W związku z powstałą awarią lub kolizją usługa assistance w zależności od wykupionego wariantu i obowiązującego zakresu ma na celu zapewnienie ubezpieczonemu określonej pomocy technicznej.</>}
                 />
               </ul>
             </div>
@@ -131,9 +130,9 @@ W związku z powstałą awarią lub kolizją usługa assistance w zależności o
                 <li>Służbowe</li>
                 <FullScreenDialog
                     secondTitle="Służbowe"
-                    secondContent="Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy."
+                    secondContent="Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia."
                     firstTitle="Turystyczne"
-                    firstContent="Podczas wyjazdu za granicę w celach zarobkowych, czy też podróży służbowej powinniśmy zadbać o ubezpieczenie kosztów leczenia w razie choroby, bądź nieszczęśliwego wypadku. Należy pamiętać, aby polisa obejmowała swoim zakresem pracę za granicą, w przeciwnym wypadku ubezpieczyciel może odmówić udzielenia pomocy podczas nagłego zdarzenia."
+                    firstContent=" Głównym elementem polis turystycznych jest ubezpieczenie kosztów leczenia, które zapewnia m.in. leczenie szpitalne, ambulatoryjne, wydatki poniesione na leki czy transport między placówkami medycznymi. Koszty leczenia są bardzo zróżnicowane, dlatego trzeba wziąć pod uwagę stawki obowiązujące w miejscu, do którego się aktualnie wybieramy."
                 />
               </ul>
             </div>

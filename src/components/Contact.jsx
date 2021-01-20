@@ -11,7 +11,7 @@ export default function Contact() {
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }} className="row animate-box" data-animate-effect="fadeInLeft">
           <div style={{ marginLeft: 10, flexGrow: 1 }}>
-            <a href="mailto:marcin.marczyk@ubezpieczeniamadu.pl">
+            <a href="mailto:kontakt@ubezpieczeniamadu.pl">
               <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="colorlib-icon">
                   <i className="icon-mail"></i>
@@ -43,22 +43,20 @@ export default function Contact() {
                 </div>
               </div>
             </a>
-            <a href="#" style={{ marginTop: -10 }}>
-              <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
-                   data-animate-effect="fadeInLeft">
-                <div className="colorlib-icon">
-                  <i className="icon-briefcase"></i>
+            <div className="colorlib-feature colorlib-feature-sm animate-box fadeInLeft animated"
+                 data-animate-effect="fadeInLeft">
+              <div className="colorlib-icon">
+                <i className="icon-briefcase"></i>
 
-                </div>
-                <div className="colorlib-text">
-                  <p>
-                    NIP: 5342470071
-                    <br />
-                    REGON: 387212140
-                  </p>
-                </div>
               </div>
-            </a>
+              <div className="colorlib-text">
+                <p style={{ color: '#2c98f0' }}>
+                  NIP: 5342470071
+                  <br />
+                  REGON: 387212140
+                </p>
+              </div>
+            </div>
           </div>
           {/*<div style={{ textAlign: 'center', flexGrow: 1 }}>*/}
           {/*  <img alt="logo" src="images/ja.png" />*/}
