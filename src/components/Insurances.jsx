@@ -4,6 +4,12 @@ import Typography from "@material-ui/core/Typography";
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import { amber } from '@material-ui/core/colors';
+import Dialog from "@material-ui/core/Dialog";
+import DialogTitle from "@material-ui/core/DialogTitle";
+import IconButton from "@material-ui/core/IconButton";
+import CloseIcon from "@material-ui/icons/Close";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogContentText from "@material-ui/core/DialogContentText";
 
 const ColorButton = withStyles((theme) => ({
   root: {
@@ -49,18 +55,15 @@ export default function Insurances() {
               <ul>
                 <li className="insurancesTileItem">Pies</li>
                 <li className="insurancesTileItem">Kot</li>
-                <FullScreenDialog
-                    firstTitle="Pies i kot"
-                    firstContent={
-                      <>
-                        <Typography style={{ fontSize: 18 }} color="error">
-                          W związku z sytuacją panującą w kraju, premiera produktu została przełożona. Informacja o dostępności ubezpieczenia pojawi się na 14 dni przed rozpoczęciem sprzedaży.
-                        </Typography>
-                        <br />
-                        <div>Zainteresowanych proszę o kontakt.</div>
-                      </>
-                    }
-                />
+                <a href="https://bezpieczny.pl/ubezpieczenie-psa/27218" target="_blank">
+                  <div style={{ textAlign: 'right', marginTop: 20, marginRight: 10 }}>
+                    <div>
+                      <Button variant="contained" color="primary">
+                        Więcej
+                      </Button>
+                    </div>
+                  </div>
+                </a>
               </ul>
             </div>
           </div>
